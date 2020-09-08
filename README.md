@@ -120,7 +120,6 @@ kio-sl-lms robin8a$ amplify add hosting
 
 ```sh
 amplify publish
-
 http://kio-sl-lms-20200907192030-hostingbucket-kiosllmsev.s3-website-us-east-1.amazonaws.com
 
 
