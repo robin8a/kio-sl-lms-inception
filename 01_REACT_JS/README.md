@@ -139,3 +139,20 @@ git remote rm origin
 git remote add origin ssh://kio_sl_lms_rsa/v1/repos/kio-sl-lms
 git push
 ```
+
+
+# Amplify hosting
+
+## Result
+```sh
+amplify add hosting
+# ? Select the plugin module to execute Hosting with Amplify Console (Managed hosting with custom domains, Continuous deployment)
+# ? Choose a type Continuous deployment (Git-based deployments)
+# ? Continuous deployment is configured in the Amplify Console. Please hit enter once you connect your repository 
+# Amplify hosting urls: 
+# ┌──────────────┬────────────────────────────────────────────┐
+# │ FrontEnd Env │ Domain                                     │
+# ├──────────────┼────────────────────────────────────────────┤
+# │ main         │ https://main.d27calhvr9nc4h.amplifyapp.com │
+# └──────────────┴────────────────────────────────────────────┘
+```
