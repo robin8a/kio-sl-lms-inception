@@ -82,6 +82,8 @@ Host kio_sl_lms_codecommit_rsa
 # git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/kio-sl-lms
 # git remote set-url origin ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/kio-sl-lms kio-sl-lms
 
+git remote rm origin
+
 git remote add origin ssh://kio_sl_lms_codecommit_rsa/v1/repos/kio-sl-lms
 
 ```
@@ -130,3 +132,9 @@ https://www.youtube.com/watch?v=-MfTv5VRM0A
 https://github.com/atlassian/react-beautiful-dnd
 https://github.com/react-dnd/react-dnd
 https://www.smashingmagazine.com/2020/02/html-drag-drop-api-react/
+
+
+# Swiper
+
+[Swiper](https://swiperjs.com/react)
+ 
