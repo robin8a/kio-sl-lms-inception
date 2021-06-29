@@ -28,3 +28,29 @@
 - Genero
 - Region
 - Escolaridad
+
+# Preparación de los datos prueba
+
+## Data examples
+
+- [MovieLens](https://grouplens.org/datasets/movielens/)
+
+# CSV editor for data
+
+- https://edit-csv.net/
+
+
+## Step 1: Import training data
+
+```sh
+aws personalize create-dataset-group \
+    --name MovieRatingDatasetGroup \
+    --kms-key-arn arn:aws:kms:us-west-2:01234567890:key/1682a1e7-a94d-4d92-bbdf-837d3b62315e \
+    --role-arn arn:aws:iam::01234567890:KMS-key-access
+
+```
+ratings-dsgroup
+ratings-dataset
+ratings-dsimport-job
+arn:aws:iam::436023604714:role/kio-sl-lms-personalize-role
+s3://kio-mk-sl-lms-personalize-data/ratings.csv

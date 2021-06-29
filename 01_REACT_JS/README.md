@@ -156,3 +156,8 @@ amplify add hosting
 # │ main         │ https://main.d27calhvr9nc4h.amplifyapp.com │
 # └──────────────┴────────────────────────────────────────────┘
 ```
+
+
+# Amplify Personalize
+
+- [Personalized recommendations](https://docs.amplify.aws/lib/analytics/personalize/q/platform/js#working-with-the-api)
