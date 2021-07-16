@@ -138,3 +138,9 @@ https://www.smashingmagazine.com/2020/02/html-drag-drop-api-react/
 
 [Swiper](https://swiperjs.com/react)
  
+
+# Benchmark
+
+- [Indoor Navigation: cómo aprovechar la navegación de interiores en tu negocio](https://www.intelligencepartner.com/google-indoor-navigation-navegacion-interiores/)
+- [Google Maps se actualiza con navegación en interiores con realidad aumentada, rutas ecológicas y mapas del tiempo](https://www.xataka.com/aplicaciones/google-maps-se-actualiza-navegacion-interiores-realidad-aumentada-rutas-ecologicas-mapas-tiempo)
+- [Google Maps estrena navegación en interiores, mapas con calidad del aire y planificación ecológica de rutas](https://www.xatakamovil.com/aplicaciones/google-maps-estrena-navegacion-interiores-mapas-calidad-aire-planificacion-ecologica-rutas)
