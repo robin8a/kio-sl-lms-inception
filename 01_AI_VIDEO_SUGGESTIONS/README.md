@@ -99,23 +99,34 @@ Para los clientes actualmente la personalización es un estandar en el de servic
 Inspeccionar los datos => Identificar funcionalidades => Seleccionar los parametros => Entrenar los modelos => Optimizar Modelos => Hospedar los modelos => Funcionalidades en tiempo real => API PERSONALIZADA
 
 ## Casos de usos
+
 **Recomendaciones especificas a un usuario**
-> Cuales recomendaciones son mas relevantes para un usuario en particular 
+> Cuales recomendaciones son mas relevantes para un usuario en particular. 
+> Receta: User-Personalization
 
 **Inicio frio de un usuario**
-> Es un subconjunto de recomendaciones para un usuario que es desconocido, donde se muestra al usuario que resultados son realmente populares
+> Es un subconjunto de recomendaciones para un usuario que es desconocido, donde se muestra al usuario que resultados son realmente populares.
+> Receta: User-Personalization
 
 **Inicio frio de un articulo**
 > Similar a "Inicio frio de un usuario" pero aplicado a un nuevo articulo, la pregunta es: cómo promocionar un nuevo artículo? Se usan parametros de exploración para ver el comportamiento de los nuevos usuarios con un poco de nuevo contenido y hacer decisiones informadas rapitamente, de donde deben ser colocadas y mostradas.
+> Receta: User-Personalization
 
-**Articulos similares**
+**Articulos similares (SIMS)**
 > No son los metadatos de una cosas similar a otra, pero que involucrar a los clientes con el contenido en formas similares. En el escenario de ventas al por menor: donde un cliente hace clic en un articulo y luego muestra articulos similares que otros clientes frecuentemente compran juntos.
+> Receta: SIMS
 
 **Ranking personalizado**
+> Tomamos una colección de artículos ya has curado de alguna manera, que puede ser potencialmente un filtro o puede ser un catálogo de artículos que quisiera promover, luego Personalize ayudará a posicionar con el fin de determinar cual tiene mayor probabilidad de ser de interes a tu usuario. Esto llevará a incrementar las conversiones o el compromiso de alguna forma.
+> Receta: Personalize-Ranking
 
 **Popularidad**
+> Aquí es mirar cuales son los artículos mas populares basado en el comportamiento del usuario. Se considera una linea base midiendo el rendimiento con Personalize, mas allá de la popularidad en términos de resultados.
+> Receta: Popularity-Count
 
-Pulselive: incremento en un 20% el consumo de video en el website y la aplicación mobil**
+### Empresas
+Pulselive
+> Incremento en un 20% el consumo de video en el website y la aplicación mobil**
  
 ## Caracteristicas del Conjunto de Datos (Datasets)
 - una colección grande de usuarios conocidos
