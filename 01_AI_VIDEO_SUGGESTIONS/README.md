@@ -145,5 +145,8 @@ Es informacion del monitoreo de las acciones de los usuarios o clientes dentro d
 pip3 install jupyterlab
 jupyter-lab
 ```
-
 - [amazon-personalize-samples](https://github.com/aws-samples/amazon-personalize-samples)
+
+# Solución y versión de la solución
+1. Solución: hace referencia a la combinación de una receta de Amazon Personalice y parametros personalizados
+2. Versión de una Solución: hacer referencia al modelo entrenado por machine-learning que puede ser desplegado para optener recomendaciones para los clientes.
