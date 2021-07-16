@@ -99,14 +99,24 @@ Para los clientes actualmente la personalización es un estandar en el de servic
 Inspeccionar los datos => Identificar funcionalidades => Seleccionar los parametros => Entrenar los modelos => Optimizar Modelos => Hospedar los modelos => Funcionalidades en tiempo real => API PERSONALIZADA
 
 ## Casos de usos
-- Recomendaciones especificas a un usuario
-- Inicio frio de un usuario
-- Inicio frio de un articulo
-- Articulos similares
-- Ranking personalizado
-- Popularidad
-- Pulselive: incremento en un 20% el consumo de video en el website y la aplicación mobil
-- 
+**Recomendaciones especificas a un usuario**
+> Cuales recomendaciones son mas relevantes para un usuario en particular 
+
+**Inicio frio de un usuario**
+> Es un subconjunto de recomendaciones para un usuario que es desconocido, donde se muestra al usuario que resultados son realmente populares
+
+**Inicio frio de un articulo**
+> Similar a "Inicio frio de un usuario" pero aplicado a un nuevo articulo, la pregunta es: cómo promocionar un nuevo artículo? Se usan parametros de exploración para ver el comportamiento de los nuevos usuarios con un poco de nuevo contenido y hacer decisiones informadas rapitamente, de donde deben ser colocadas y mostradas.
+
+**Articulos similares**
+> No son los metadatos de una cosas similar a otra, pero que involucrar a los clientes con el contenido en formas similares. En el escenario de ventas al por menor: donde un cliente hace clic en un articulo y luego muestra articulos similares que otros clientes frecuentemente compran juntos.
+
+**Ranking personalizado**
+
+**Popularidad**
+
+Pulselive: incremento en un 20% el consumo de video en el website y la aplicación mobil**
+ 
 ## Caracteristicas del Conjunto de Datos (Datasets)
 - una colección grande de usuarios conocidos
 - historia de su comportamiento y su comportamiento (al menos 10 interacciones por usuario)
