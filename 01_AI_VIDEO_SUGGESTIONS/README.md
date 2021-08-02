@@ -3,6 +3,7 @@
 - [Amazon Personalize Pricing](https://aws.amazon.com/personalize/pricing/)
 - [Amazon Personalize Real time personalization and recommendation service.](https://console.aws.amazon.com/personalize/home?region=us-east-1#start)
 - [Amazon Personalize Samples](https://github.com/aws-samples/amazon-personalize-samples)
+- [Amazon Personalize can now use 10X more item attributes to improve relevance of recommendations](https://aws.amazon.com/es/blogs/machine-learning/amazon-personalize-can-now-use-10x-more-item-attributes-to-improve-relevance-of-recommendations/)
 
 > Dar recomendaciones a los usuarios en función de sus preferencias y comportamiento, volver a clasificar los resultados de forma personalizada y personalizar el contenido de los correos electrónicos y notificaciones.
 
@@ -137,6 +138,9 @@ Pulselive
 ## Data de interacción
 Es informacion del monitoreo de las acciones de los usuarios o clientes dentro de la plataforma (compras, compartir, likes, inclusive navegar) todo determinado por marca de tiempo (timestamp)
 
+## Cuales datos son útiles (User metadata)?
+Que queremos filtrar y cómo? Para el contenido multimedia por ejemplo es relevante al genero ya que es un atributo con el que podemos filtrar constantemente y tener mejores recomendaciones.
+
 # Solución y Versión de la Solución
 1. Solución: hace referencia a la combinación de una receta de Amazon Personalice y parametros personalizados
 2. Versión de una Solución: hacer referencia al modelo entrenado por machine-learning que puede ser desplegado para optener recomendaciones para los clientes. Se puede acceder a través de AWS-CLI y SDK
@@ -188,6 +192,52 @@ The metrics produced by Personalize are:
 
 Una campaña es una versión de solución alojada; un punto final que puede consultar para obtener recomendaciones.
 
+# Implementación
+
+## Dataset
+
+### Schema
+Al principio solo vamos a entrenar el modelo con:
+ USER_ID: identificador del usuario 
+ ITEM_ID (MOVIE_ID): identificador de la pelicula
+ RATING: calificación de la pelicula de 1 a 5
+ EVENT_TYPE: click o visto  
+ TIMESTAMP: momento en el tiempo que fué consumido multimedia
+
+Nombre de archivo: interaction.csv
+
+**Al menos debemos tener 2500 interacciones para crear en motor de recomendaciones**
+
+- Solo vamos a tener calificaciones positivas o vistas completas, asumiendo que mayor o igual a 3 cumple con éste filtro
+
+## Metadata de los archivos multimedia
+
+### Datos
+movieId: 
+título: Del título no se aprende ya que los hay palabras repetidas por consiguiente no lo vamos a
+genre: 
+
+### Schema
+ITEM_ID(movieId): identificador de la pelicula, relacionado con la pelicula
+GENRE: o categorías (Ej. matematicas|fisica|computacion|arte) datos separado por "|"
+
+Nombre de archivo: item-meta.csv
+
+## Metadata de los usuarios
+
+### Datos
+identificador
+edad: Edad en años del usuario
+genero: Genero del usuario
+ubicación: Ciudad del usuario
+
+### Schema
+USER_ID(identificador)
+AGE (edad)
+GENRE (genero)
+LOCATION (ubicación)
+
+Nombre de archivo: item-meta.csv
 
 # Setting Up Jupyter Notebook
 - [Getting Started With Jupyter Notebook for Python](https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46)
