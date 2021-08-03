@@ -188,3 +188,7 @@ amplify add hosting
 # Amplify Personalize
 
 - [Personalized recommendations](https://docs.amplify.aws/lib/analytics/personalize/q/platform/js#working-with-the-api)
+
+
+# Draggable control image
+- [react-draggable-and-resizable-pictures](https://stackblitz.com/edit/react-draggable-and-resizable-pictures)

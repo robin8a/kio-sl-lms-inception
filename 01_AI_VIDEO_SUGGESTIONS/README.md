@@ -262,7 +262,7 @@ Es un termino de machine-learning; para preguntar al modelo que haga un predicci
 
 ##  Recomendaciones Bathc
 
-
+Aquí voy documentando: https://youtu.be/oeVYCOFNFMI?t=215
 
 
 # Setting Up Jupyter Notebook
