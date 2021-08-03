@@ -68,6 +68,7 @@ s3://kio-mk-sl-lms-personalize-data/ratings.csv
 - [Episode 2: Understanding your Data with Amazon Personalize](https://youtu.be/TEioktJD1GE)
 - [Episode 3: Solving Real World Use Cases with Amazon Personalize](https://youtu.be/9N7s_dVVWBE)
 - [Amazon Personalize can now use 10X more item attributes to improve relevance of recommendations](https://aws.amazon.com/es/blogs/machine-learning/amazon-personalize-can-now-use-10x-more-item-attributes-to-improve-relevance-of-recommendations/)
+- [Getting your Amazon Personalize Recommendations in Front of your Users](https://www.youtube.com/watch?v=oeVYCOFNFMI)
 
 4 areas principales (Data/Training/Inference/Operations)
 Como entrenar los modelos, escoger las recetas y algoritmos apropiadas para los casos de uso, como obtener recomendaciones de los modelos e integrarlos con las aplicaciones
@@ -192,9 +193,11 @@ The metrics produced by Personalize are:
 
 Una campaña es una versión de solución alojada; un punto final que puede consultar para obtener recomendaciones.
 
-# Implementación
+# IMPLEMENTACIÓN
 
-## Dataset
+# Datos
+  
+## Dataset para las interacciones
 
 ### Schema
 Al principio solo vamos a entrenar el modelo con:
@@ -211,8 +214,9 @@ Nombre de archivo: interaction.csv
 - Solo vamos a tener calificaciones positivas o vistas completas, asumiendo que mayor o igual a 3 cumple con éste filtro
 
 ## Metadata de los archivos multimedia
+Cómo los usuarios 
 
-### Datos
+### Dataset
 movieId: 
 título: Del título no se aprende ya que los hay palabras repetidas por consiguiente no lo vamos a
 genre: 
@@ -225,7 +229,7 @@ Nombre de archivo: item-meta.csv
 
 ## Metadata de los usuarios
 
-### Datos
+### Dataset
 identificador
 edad: Edad en años del usuario
 genero: Genero del usuario
@@ -238,6 +242,28 @@ GENRE (genero)
 LOCATION (ubicación)
 
 Nombre de archivo: item-meta.csv
+
+# Entrenamiento
+... ver Casos de Uso, Soluciones, Recetas
+
+# Inferencias
+Es un termino de machine-learning; para preguntar al modelo que haga un predicción (obtener recomendaciones)
+
+##  Recomendaciones en tiempo real (RT)
+- Experiencias interactivas para los usuarios (browser, mobile)
+- GetRecommendations
+- GerPersonalizedRanking
+- Llamados sincronicos
+- Baja latencia
+- Auto escalamiento
+- Requiere una campaña
+- Soporta contexto
+- Soporta filtros
+
+##  Recomendaciones Bathc
+
+
+
 
 # Setting Up Jupyter Notebook
 - [Getting Started With Jupyter Notebook for Python](https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46)
