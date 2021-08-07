@@ -190,5 +190,120 @@ amplify add hosting
 - [Personalized recommendations](https://docs.amplify.aws/lib/analytics/personalize/q/platform/js#working-with-the-api)
 
 
-# Draggable control image
+# Draggable control image (Doesn't work on mobile)
+- [npm dragable](https://www.npmjs.com/package/react-draggable)
 - [react-draggable-and-resizable-pictures](https://stackblitz.com/edit/react-draggable-and-resizable-pictures)
+- [Could Work How do I detect the users touch on an element in react native?](https://stackoverflow.com/questions/56911959/how-do-i-detect-the-users-touch-on-an-element-in-react-native)
+
+
+# Design
+
+- [NOW UI KIT REACT](https://demos.creative-tim.com/now-ui-kit-react/#/index)
+
+1. [Download](https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar&_ga=2.213288532.1362901605.1628185760-743588370.1626883218#) the template 
+2. Unzip
+3. Copy dependencies from tempalte package.json to kio-jup-places-reserve-rjs-app/package.json
+4. Install template dependencies
+```sh
+npm install
+npm audit fix
+```
+5. Copy jsconfig.json from template to project root 
+6. Copy folders (assets, components, views) to src/
+7. Conf index.js like this
+
+```js
+import React from 'react'
+import ReactDOM from 'react-dom'
+// styles
+// styles for this kit
+import "assets/css/bootstrap.min.css"
+import "assets/scss/now-ui-kit.scss?v=1.5.0"
+import "assets/demo/demo.css?v=1.5.0"
+import "assets/demo/nucleo-icons-page-styles.css?v=1.5.0"
+
+
+import App from './App'
+
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+
+```
+8. Conf app.js like this:
+
+```js
+import React, { Component } from 'react'
+
+// pages for this kit
+import Index from "views/Index.js";
+import NucleoIcons from "views/NucleoIcons.js";
+import LoginPage from "views/examples/LoginPage.js";
+import LandingPage from "views/examples/LandingPage.js";
+import ProfilePage from "views/examples/ProfilePage.js";
+// Routing
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+
+class App extends Component{
+  
+  constructor() {
+    super();
+    this.state = {
+      
+    }
+  }
+
+  
+  render() {
+    
+    return (   
+      <Router>
+
+        <Switch>
+
+          <Route path="/index" render={(props) => <Index {...props} />} />
+
+          <Route
+            path="/nucleo-icons"
+            render={(props) => <NucleoIcons {...props} />}
+          />
+
+          <Route
+            path="/landing-page"
+            render={(props) => <LandingPage {...props} />}
+          />
+
+          <Route
+            path="/profile-page"
+            render={(props) => <ProfilePage {...props} />}
+          />
+
+          <Route
+            path="/login-page"
+            render={(props) => <LoginPage {...props} />}
+          />
+
+          <Redirect to="/index" />
+          <Redirect from="/" to="/index" />
+
+        </Switch>
+
+
+      </Router>
+    )
+  }
+}
+
+export default App
+```
+
+<!-- ToDo -->
+3. API 
+1. HistoryBoard => componentDidMount => Load Parents
+2. DB ER
+4. Video Upload & Optimization

@@ -201,11 +201,11 @@ Una campaña es una versión de solución alojada; un punto final que puede cons
 
 ### Schema
 Al principio solo vamos a entrenar el modelo con:
- USER_ID: identificador del usuario 
- ITEM_ID (MOVIE_ID): identificador de la pelicula
- RATING: calificación de la pelicula de 1 a 5
- EVENT_TYPE: click o visto  
- TIMESTAMP: momento en el tiempo que fué consumido multimedia
+ - USER_ID: identificador del usuario 
+ - ITEM_ID (MULTIMEDIA_ID): identificador de la archivo multimedia
+ - RATING: calificación de la pelicula de 1 a 5
+ - EVENT_TYPE: click o visto  
+ - TIMESTAMP: momento en el tiempo que fué consumido multimedia
 
 Nombre de archivo: interaction.csv
 
@@ -217,9 +217,9 @@ Nombre de archivo: interaction.csv
 Cómo los usuarios 
 
 ### Dataset
-movieId: 
-título: Del título no se aprende ya que los hay palabras repetidas por consiguiente no lo vamos a
-genre: 
+- multimediaID: 
+- título: Del título **no se aprende** ya que los hay palabras repetidas por consiguiente no lo vamos a tener en cuenta
+- genre: Categoría
 
 ### Schema
 ITEM_ID(movieId): identificador de la pelicula, relacionado con la pelicula
@@ -236,12 +236,12 @@ genero: Genero del usuario
 ubicación: Ciudad del usuario
 
 ### Schema
-USER_ID(identificador)
-AGE (edad)
-GENRE (genero)
-LOCATION (ubicación)
+- USER_ID(identificador)
+- AGE (edad)
+- GENRE (genero)
+- LOCATION (ubicación)
 
-Nombre de archivo: item-meta.csv
+Nombre de archivo: user-meta.csv
 
 # Entrenamiento
 ... ver Casos de Uso, Soluciones, Recetas
