@@ -302,8 +302,83 @@ class App extends Component{
 export default App
 ```
 
+# Amplify Auth
+
+```sh
+amplify add auth
+# Scanning for plugins...
+# Plugin scan successful
+# Using service: Cognito, provided by: awscloudformation
+ 
+#  The current configured provider is Amazon Cognito. 
+ 
+#  Do you want to use the default authentication and security configuration? Defa
+# ult configuration
+#  Warning: you will not be able to edit these selections. 
+#  How do you want users to be able to sign in? Username
+#  Do you want to configure advanced settings? No, I am done.
+# Successfully added resource kiosllms9a43b205 locally
+
+# Some next steps:
+"amplify push" will build all your local backend resources and provision it in the cloud
+"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
+```
+
+# Amplify Storage
+
+```sh
+amplify add storage
+
+# ? Please select from one of the below mentioned services: Content (Images, audi
+# o, video, etc.)
+# ? Please provide a friendly name for your resource that will be used to label t
+# his category in the project: s35d0d1bb2
+# ? Please provide bucket name: kio-sl-lmsb2100efba69f4dfaa1abc0e390f62647
+# ? Who should have access: Auth and guest users
+# ? What kind of access do you want for Authenticated users? create/update, read,
+#  delete
+# ? What kind of access do you want for Guest users? read
+# ? Do you want to add a Lambda Trigger for your S3 Bucket? No
+# Successfully updated auth resource locally.
+# Successfully added resource s35d0d1bb2 locally
+
+Some next steps:
+"amplify push" builds all of your local backend resources and provisions them in the cloud
+"amplify publish" builds all of your local backend and front-end resources (if you added hosting category) and provisions them in the cloud
+```
+
+# Amplify API
+
+```sh
+amplify add api    
+? Please select from one of the below mentioned services: GraphQL
+? Provide API name: kiosllmsapi
+? Choose the default authorization type for the API API key
+? Enter a description for the API key: 
+? After how many days from now the API key should expire (1-365): 365
+? Do you want to configure advanced settings for the GraphQL API No, I am done.
+
+
+? Do you have an annotated GraphQL schema? No
+? Do you want a guided schema creation? Yes
+? What best describes your project: One-to-many relationship (e.g., “Blogs” wit
+h “Posts” and “Comments”)
+? Do you want to edit the schema now? Yes
+Please edit the file in your editor: /Users/robin8a/Documents/react_ws/kio-sl-lms/amplify/backend/api/kiosllmsapi/schema.graphql
+```
+
+## Result
+
+```sh
+UPDATE_COMPLETE_CLEANUP_IN_PROGRESS amplify-kio-sl-lms-kilmsenv-83533 AWS::CloudFormation::Stack Sun Aug 08 2021 12:05:17 GMT-0500 (Colombia Standard Time) 
+⠧ Updating resources in the cloud. This may take a few minutes...⠋ Generating G✔ Generated GraphQL operations successfully and saved at src/graphql
+✔ All resources are updated in the cloud
+
+GraphQL endpoint: https://ieujhqpqfrec3osw6cfdpq2xvm.appsync-api.us-east-1.amazonaws.com/graphql
+GraphQL API KEY: check KeepWeb
+
+```
 <!-- ToDo -->
-3. API 
+
 1. HistoryBoard => componentDidMount => Load Parents
-2. DB ER
-4. Video Upload & Optimization
+2. Video Upload & Optimization
