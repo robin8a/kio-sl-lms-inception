@@ -1,3 +1,7 @@
+# References
+- [React JS forms](https://reactjs.org/docs/forms.html)
+
+https://stackoverflow.com/questions/36205673/how-do-i-create-a-dynamic-drop-down-list-with-react-bootstrap
 # Video embed
 
 
@@ -378,7 +382,53 @@ GraphQL endpoint: https://ieujhqpqfrec3osw6cfdpq2xvm.appsync-api.us-east-1.amazo
 GraphQL API KEY: check KeepWeb
 
 ```
+
+# Install libraries
+```sh
+npm i aws-amplify @aws-amplify/ui-react \
+npm i aws-amplify-react \
+npm i react-select
+```
+
+# AWS AppSync
+
+
+# An example query named "GetPost" might look like:
+```js
+     query GetPost {
+       singlePost(id: 123) {
+         id
+         title
+       }
+     }
+```
+
+# An example mutation named "PutPost" might look like:
+```js
+     mutation PutPost {
+       putPost(id: 123, title: "Hello, world!") {
+         id
+         title
+       }
+     }
+
+     mutation MyMutation {
+        createGenre(input: {id: "1", name: "Física"}) {
+            id
+            name
+        }
+    }
+```
+
+# Getting AWS amplify Auth User info
+- [AWS Amplify Password & user management](https://docs.amplify.aws/lib/auth/manageusers/q/platform/js/#retrieve-current-authenticated-user)
+
+- [Retrieving user information from AWS Amplify authentication](https://medium.com/@dantasfiles/three-methods-to-get-user-information-in-aws-amplify-authentication-e4e39e658c33)
+
 <!-- ToDo -->
 
-1. HistoryBoard => componentDidMount => Load Parents
-2. Video Upload & Optimization
+1. Create MOOC [X]
+2. Create Multimedias [X]
+3. Add MoocList on schema Multimedia has MoocList
+4. HistoryBoard => componentDidMount => Load Parents
+5. Video Upload & Optimization
