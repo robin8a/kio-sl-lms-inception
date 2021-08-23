@@ -425,6 +425,30 @@ npm i react-select
 
 - [Retrieving user information from AWS Amplify authentication](https://medium.com/@dantasfiles/three-methods-to-get-user-information-in-aws-amplify-authentication-e4e39e658c33)
 
+# Floating Button control
+- [react-floating-button](https://www.npmjs.com/package/react-floating-button)
+- [React video player with custom controls #4 - adding player and controls functionalities.](https://www.youtube.com/watch?v=Y-OLcnr8eNo)
+- [vivekjne/video-player-react-youtube](https://github.com/vivekjne/video-player-react-youtube)
+
+
+# Installed component for button on React video player
+
+```sh
+4063* npm start
+ 4064* brew update
+ 4065  npm install --save react@latest
+ 4066* npm start
+ 4067  npm install react-floating-button
+ 4068  npm audit fix
+ 4069  npm uninstall react-floating-button
+ 4070  npm i react-floating-button-menu
+ 4071  npm install @material-ui/core
+ 4072  \tnpm install @material-ui/icons
+ 4073* npm start
+ 4074  npm i styled-components
+ 4075* npm start
+```
+
 <!-- ToDo -->
 
 1. Create MOOC [X]
