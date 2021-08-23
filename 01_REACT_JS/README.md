@@ -448,11 +448,26 @@ npm i react-select
  4074  npm i styled-components
  4075* npm start
 ```
+# GraphQl
+
+```json
+mutation MyMutation {
+  createMoocType(input: {id: "5", name: "ebook"}) {
+    id
+    name
+  }
+}
+```
 
 <!-- ToDo -->
 
 1. Create MOOC [X]
 2. Create Multimedias [X]
-3. Add MoocList on schema Multimedia has MoocList
-4. HistoryBoard => componentDidMount => Load Parents
-5. Video Upload & Optimization
+3. Add MoocList on schema Multimedia has MoocList [X]
+4. Add MultimediaParentID to Multimedia [X]
+5. Add MoocType and update on CRUDMooc [X]
+
+
+<!-- Back log -->
+- Video Upload & Optimization
+- HistoryBoard => componentDidMount => Load Parents
