@@ -188,6 +188,9 @@ amplify add hosting
 # └──────────────┴────────────────────────────────────────────┘
 ```
 
+## Route 53
+- [Setting up a Custom Domain with the Amplify Console with Godaddy](https://www.youtube.com/watch?v=uaG2mMYLI68)
+- 
 
 # Amplify Personalize
 
@@ -466,8 +469,45 @@ mutation MyMutation {
 3. Add MoocList on schema Multimedia has MoocList [X]
 4. Add MultimediaParentID to Multimedia [X]
 5. Add MoocType and update on CRUDMooc [X]
+6. Quiero crear lección (historia, aprendizaje, actividad, resumen). Curso => Leccion
+7. Me gusta
+8. Compartir
+9. Comentar
+10. Búsqueda de videos por temática
+11. Editar video (filtros, efectos, tiempo, embellecer, velocidad, girar) https://www.youtube.com/watch?v=42xzuqAH5ig
+12. Editar mi perfil personal
+13. Quiero construir historia (paso a paso)
+14. Store
 
 
 <!-- Back log -->
 - Video Upload & Optimization
 - HistoryBoard => componentDidMount => Load Parents
+
+alegria3
+
+Ya quieren arreglar
+
+Reunión la próxima semana Ecopetrol
+1. Crypto activo tokenización, que puedan ser monetizados después
+2. Exchange
+3. Precio internos de esos activos de crudo azul
+
+Token carbon
+Token barril azul
+
+Precios sombra
+
+Mercado balcón
+
+Tienen Plata del estudio para desarrollar el prototipo de la plataforma
+
+Negociamos el porcentaje de propiedad intelectual
+Nota convertible
+
+De donde va ser rentable la descorbanización
+
+Viene de Londres el director, doctorado
+
+Problema: refineria debe dejar 
+
