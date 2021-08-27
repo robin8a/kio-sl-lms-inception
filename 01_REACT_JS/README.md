@@ -464,21 +464,28 @@ mutation MyMutation {
 
 <!-- ToDo -->
 
+
 1. Create MOOC [X]
 2. Create Multimedias [X]
 3. Add MoocList on schema Multimedia has MoocList [X]
 4. Add MultimediaParentID to Multimedia [X]
 5. Add MoocType and update on CRUDMooc [X]
-6. Quiero crear lección (historia, aprendizaje, actividad, resumen). Curso => Leccion
-7. Me gusta
-8. Compartir
-9. Comentar
-10. Búsqueda de videos por temática
-11. Editar video (filtros, efectos, tiempo, embellecer, velocidad, girar) https://www.youtube.com/watch?v=42xzuqAH5ig
-12. Editar mi perfil personal
-13. Quiero construir historia (paso a paso)
-14. Store
+6. Quiero crear lección "MOOC" (historia, aprendizaje, actividad, resumen). Curso => Leccion [X]
+7. UI player [] and cargar multimedias [X]
+- Signed URL 
+9. Filtros por Genre
+10. UI Landing page
+11. Me gusta
+12. Compartir
+13. Comentar
+14. Búsqueda de videos por temática
+15. Editar video (filtros, efectos, tiempo, embellecer, velocidad, girar) https://www.youtube.com/watch?v=42xzuqAH5ig
+16. Editar mi perfil personal
+17. Quiero construir historia (paso a paso) [X]
+18. Store
 
+- Autentacacion 
+- CI/CD
 
 <!-- Back log -->
 - Video Upload & Optimization
