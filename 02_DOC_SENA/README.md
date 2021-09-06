@@ -1,6 +1,6 @@
 # Diseño de la Base de Datos
 
-![Versión 2](_images/ER-DB-V2.png)
+![Modelo Entidad Relación (E-R) Versión 2](_images/ER-DB-V2.png)
 
 1. User 
 - Contiene la información del usuario con su respectivo [Role] (Administrador, Publicador/Visualizador)
@@ -27,3 +27,22 @@
 8. MoocType
 - Clasificación de los MOOCs en: PodCast, Colaborativos, ebook, Webinar, Mixto
 
+# API (AWS - AppSync - GraphQL)
+
+> Haciendo uso del diseño de la base de datos se genero el API (Application Programming Interface) para cada una de las entidades del modelo, soportado con GraphQL para la manipulación, consulta y escucha de cambios en la BD
+
+
+## Queries (Consultas)
+> Permite obtener una entidad por su ID o listar filtrando por los IDs
+
+![GraphQL Queries](_images/api_graphql_queries.png)
+
+## Mutation (CRUD)
+> Permite Crear (Create), Leer (Read), Actualizar (Update) y Borrar (Delete) las entidades por ID (Identificador único)
+
+![GraphQL Mutations](_images/api_graphql_mutations.png)
+
+## Subscriptions (Cambios)
+> Permite escuchar los cambios que ocurren en las entidades en tiempo real, para los llamados de Crear, Actualizar y Borrar
+
+![GraphQL Subscriptions](/02_DOC_SENA/_images/api_graphql_subscriptions.png)
