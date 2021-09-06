@@ -1,5 +1,6 @@
 # References
 - [React JS forms](https://reactjs.org/docs/forms.html)
+- [Download Videos Pexels](https://www.pexels.com/search/videos/education/)
 
 https://stackoverflow.com/questions/36205673/how-do-i-create-a-dynamic-drop-down-list-with-react-bootstrap
 # Video embed
@@ -436,6 +437,12 @@ npm i react-select
 
 # Installed component for button on React video player
 
+- https://www.youtube.com/watch?v=Y-OLcnr8eNo
+- https://www.npmjs.com/package/react-player
+- https://www.tabnine.com/code/javascript/modules/react-player
+- [***works*** How to Create a Hero Section with Video Using React-Player](https://levelup.gitconnected.com/how-to-create-a-hero-section-with-video-using-react-player-aa46445094db)
+
+
 ```sh
 4063* npm start
  4064* brew update
@@ -466,13 +473,15 @@ mutation MyMutation {
 
 
 1. Create MOOC [X]
+- Listener MOOC creados
 2. Create Multimedias [X]
 3. Add MoocList on schema Multimedia has MoocList [X]
 4. Add MultimediaParentID to Multimedia [X]
 5. Add MoocType and update on CRUDMooc [X]
 6. Quiero crear lección "MOOC" (historia, aprendizaje, actividad, resumen). Curso => Leccion [X]
 7. UI player [] and cargar multimedias [X]
-- Signed URL 
+- Signed URL [X] URL para evitar descargas de 3ros fuera de la plataforma
+- 
 9. Filtros por Genre
 10. UI Landing page
 11. Me gusta
