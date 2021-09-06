@@ -2,22 +2,22 @@
 
 ![Modelo Entidad Relación (E-R) Versión 2](_images/ER-DB-V2.png)
 
-1. User 
+1. **User** 
 - Contiene la información del usuario con su respectivo [Role] (Administrador, Publicador/Visualizador)
 
-2. Like 
+2. **Like** 
 - El sentimiento que genera por el contenido multimedia
 
-3. Follow 
+3. **Follow** 
 - Los usuarios que sigue para ver su contenido
 
-4. Multimedia
+4. **Multimedia**
 - Permite almacenar todo tipo de archivos multimedia (videos, imágenes, documentos), adicionalmente es el centro de la información de las relaciones
 
-5. Genre
+5. **Genre**
 - Contiene las categorías de los archivos por ejemplo: ARTE, MATEMATICAS, FISICA, TRIGONOMETRIA, etc.
 
-6. MoocList (History Board)
+6. **MoocList** (History Board)
 - Contiene el orden jerárquico de la historias apoyado en la estructura de datos (arbol eneario)
 ![Historias árbol eneario](/02_DOC_SENA/_images/arbol_eneario.png)
 
@@ -47,7 +47,8 @@
 
 ![GraphQL Subscriptions](/02_DOC_SENA/_images/api_graphql_subscriptions.png)
 
-# Autorización y Autenticación 
+# Autenticación y Autorización
+> La autenticación esta apalancada por AWS Cognito para el registro e inicio de sesión de los usuarios de la plataforma según su autorización (rol)
 
 # Almacenamiento
 > El contenido multimedia se almacena en (Amazon S3 or Amazon Simple Storage Service) bajo las siguientes condiciones:
@@ -59,5 +60,7 @@
 [Objetos](_images/s3-objects.png)
 
 # Publicación
-> Para la actualización del proyecto se implemento la metodología CI/CD (Continuos Integration / Continuous Delivery) (Integración Continua y despliegue) que cuenta con las siguientes integraciones:
-- AWS Code Commit: repositorio para el control de versiones, que cuenta con dos ramas **master** (producción) y **development** (desarrollo)
+> Para la actualización del proyecto de nuevas funcionalidades se implemento la metodología CI/CD (Continuos Integration / Continuous Delivery) (Integración Continua y despliegue) que cuenta con las siguientes integraciones:
+- AWS Code Commit: repositorio para el control de versiones, que cuenta con dos ramas **master** (producción) y **development** (desarrollo), donde cada vez que se hace un commit se despliega automaticamente el código
+- Se genero su respectivo certificaco de seguridad para conexiones seguras
+- Route 53: Se conectó el dominio de GoDaddy [wooow.digital](https://www.wooow.digital/)
