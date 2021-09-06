@@ -50,10 +50,14 @@
 # Autorización y Autenticación 
 
 # Almacenamiento
-> El contenido multimedia se almacena en (Amazon S3 or Amazon Simple Storage Service) bajo las siguientes condiciones
+> El contenido multimedia se almacena en (Amazon S3 or Amazon Simple Storage Service) bajo las siguientes condiciones:
 - Cada archivo tiene un identificador único para su identificación, ésto también permite compartirlo con ése ID
-- Todos los archivos son privados.
+- Todos los archivos son privados
 - Para prevenir la visualización o descarga de contenido privilegiado, los URLs se firman (Signed URL) con el fin de que el usuario en sesión pueda verlos o descargarlos si esa opción esta habilitada.
 
-# Publicación
+[Repositorios](_images/s3-buckets.png)
+[Objetos](_images/s3-objects.png)
 
+# Publicación
+> Para la actualización del proyecto se implemento la metodología CI/CD (Continuos Integration / Continuous Delivery) (Integración Continua y despliegue) que cuenta con las siguientes integraciones:
+- AWS Code Commit: repositorio para el control de versiones, que cuenta con dos ramas **master** (producción) y **development** (desarrollo)
