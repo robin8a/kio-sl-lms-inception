@@ -12,7 +12,7 @@
 - Los usuarios que sigue para ver su contenido
 
 4. Multimedia
-- Permite almacenar todo tipo de archivos multimedia (videos, imágenes, documentos), adicionalmente es el centro de la informacion de las relaciones
+- Permite almacenar todo tipo de archivos multimedia (videos, imágenes, documentos), adicionalmente es el centro de la información de las relaciones
 
 5. Genre
 - Contiene las categorías de los archivos por ejemplo: ARTE, MATEMATICAS, FISICA, TRIGONOMETRIA, etc.
@@ -46,3 +46,14 @@
 > Permite escuchar los cambios que ocurren en las entidades en tiempo real, para los llamados de Crear, Actualizar y Borrar
 
 ![GraphQL Subscriptions](/02_DOC_SENA/_images/api_graphql_subscriptions.png)
+
+# Autorización y Autenticación 
+
+# Almacenamiento
+> El contenido multimedia se almacena en (Amazon S3 or Amazon Simple Storage Service) bajo las siguientes condiciones
+- Cada archivo tiene un identificador único para su identificación, ésto también permite compartirlo con ése ID
+- Todos los archivos son privados.
+- Para prevenir la visualización o descarga de contenido privilegiado, los URLs se firman (Signed URL) con el fin de que el usuario en sesión pueda verlos o descargarlos si esa opción esta habilitada.
+
+# Publicación
+
