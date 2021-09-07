@@ -50,17 +50,21 @@
 # Autenticación y Autorización
 > La autenticación esta apalancada por AWS Cognito para el registro e inicio de sesión de los usuarios de la plataforma según su autorización (rol)
 
+![AWS Cognito Users](_images/cognito-users.png)
+
 # Almacenamiento
 > El contenido multimedia se almacena en (Amazon S3 or Amazon Simple Storage Service) bajo las siguientes condiciones:
 - Cada archivo tiene un identificador único para su identificación, ésto también permite compartirlo con ése ID
 - Todos los archivos son privados
 - Para prevenir la visualización o descarga de contenido privilegiado, los URLs se firman (Signed URL) con el fin de que el usuario en sesión pueda verlos o descargarlos si esa opción esta habilitada.
 
-[Repositorios](_images/s3-buckets.png)
-[Objetos](_images/s3-objects.png)
+![Repositorios](_images/s3-buckets.png)
+![Objetos](_images/s3-objects.png)
 
 # Publicación
 > Para la actualización del proyecto de nuevas funcionalidades se implemento la metodología CI/CD (Continuos Integration / Continuous Delivery) (Integración Continua y despliegue) que cuenta con las siguientes integraciones:
 - AWS Code Commit: repositorio para el control de versiones, que cuenta con dos ramas **master** (producción) y **development** (desarrollo), donde cada vez que se hace un commit se despliega automaticamente el código
 - Se genero su respectivo certificaco de seguridad para conexiones seguras
 - Route 53: Se conectó el dominio de GoDaddy [wooow.digital](https://www.wooow.digital/)
+
+![BackEnd: Amplify CI/CD](_images/amplify-publish-dashboard.png)
