@@ -81,14 +81,14 @@
 
 ### UI Admnistrador
 
-### Reproductor Multimedia 
+### Reproductor Multimedia (Video: https://youtu.be/TmjE0nD64Jo)
 [Reproductor Multimedia](https://youtu.be/TmjE0nD64Jo)
 
 
 ### NOW UI KIT React
 ![NOW UI KIT REACT](./_images/ui-now-kit.png)
 
-### CRUD MOOC
+### CRUD MOOC (Video: https://youtu.be/iDhXS0cwRa8)
 [Ejemplo creación MOOC](https://youtu.be/iDhXS0cwRa8)
 
 
