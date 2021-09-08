@@ -66,5 +66,21 @@
 - AWS Code Commit: repositorio para el control de versiones, que cuenta con dos ramas **master** (producción) y **development** (desarrollo), donde cada vez que se hace un commit se despliega automaticamente el código
 - Se genero su respectivo certificaco de seguridad para conexiones seguras
 - Route 53: Se conectó el dominio de GoDaddy [wooow.digital](https://www.wooow.digital/)
+- Entorno de desarrollo desplegado: [Desarrollo](https://development.d1q9t7bgr5y2mv.amplifyapp.com/)
 
 ![BackEnd: Amplify CI/CD](_images/amplify-publish-dashboard.png)
+
+# UI/Ux (Interfaces y Experiencia de Usuario)
+
+> Las interfaces de usuario están construidas sobre la base de plantillas [Creative Tim](https://www.creative-tim.com/) especificamente NOW UI KIT, adicionalmente se integraron los frameworks: [React Bootstrap](https://react-bootstrap.github.io/) y  [Material UI](https://material-ui.com/components/links/)
+
+
+## Intefaces de Usuario UI
+>> Los enlaces de los componentes de las interfaces/administración/página de inicio se encuentran en la parte inferior del reproductor de videos
+![Enlaces](_images/links-admon-ui-landing.png)
+
+### Reproductor Multimedia 
+![Reproductor Multimedia](./_images/multimedia-player.png)
+
+### NOW UI KIT React
+![NOW UI KIT REACT](./_images/ui-now-kit.png)
