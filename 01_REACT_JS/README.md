@@ -483,8 +483,8 @@ mutation MyMutation {
 7. UI player [] and cargar multimedias [X]
 - Signed URL [X] URL para evitar descargas de 3ros fuera de la plataforma
 - 
-9. Filtros por Genre
-10. UI Landing page
+9. Filtros por Genre 
+10. UI Landing page [X]
 11. Me gusta
 12. Compartir
 13. Comentar

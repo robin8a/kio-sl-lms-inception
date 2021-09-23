@@ -1,5 +1,8 @@
 # kio-sl-lms-inception
 
+- https://www.pinterest.dk/pin/288582288598240522/
+
+
 ## Front End (FE) & Back End (BE)
 - [React JS / Amplify](01_REACT_JS/README.md)
 
