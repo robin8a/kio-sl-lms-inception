@@ -485,7 +485,7 @@ mutation MyMutation {
 - 
 9. Filtros por Genre 
 10. UI Landing page [X]
-11. Me gusta
+11. Me gusta [X]
 12. Compartir
 13. Comentar
 14. Búsqueda de videos por temática
@@ -528,3 +528,8 @@ Viene de Londres el director, doctorado
 
 Problema: refineria debe dejar 
 
+# Payment with Stripe
+- https://stripe.com/docs/stripe-js/react
+- https://stripe.com/docs/testing
+- https://www.cluemediator.com/integrate-stripe-payment-gateway-in-react
+- https://www.pluralsight.com/guides/how-to-integrate-stripe-with-react
