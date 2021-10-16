@@ -263,3 +263,42 @@ Es un termino de machine-learning; para preguntar al modelo que haga un predicci
 - Soporta filtros
 
 ![Ejemplo de recomendaciones para el Usuario con ID: 32 ](_images/ejemplo-algoritmo-recomendaciones.jpg)
+
+
+# Tienda Virtual
+## Funcionalidades
+- Enlace [Mostrar productos: https://www.wooow.digital/display_products/](https://www.wooow.digital/display_products/)
+- La tienda permite visualizar los productos disponibles en el inventario
+- Ver la imágenes de los productos
+- Agregar al carrito de compra
+- Cálculo de totales de la compra según se agregan productos
+- Integración con sistema de pago Stripe con tarjeta de credito
+
+![Carrito de compras](_images/shopping_kart.png)
+
+
+# Interfaz principal para la reproducción de Videos
+![Reproductor de Videos](_images/video_player.png)
+## Funcionalidades de UI
+1. Seguir a un publicador: permite seguir a un publicador de videos
+2. Me gusta: lleva el conteo de "me gusta" y guarda quien le hizo "me gusta" a otro
+3. Comentarios: permite hacer y ver los comentarios sobre el video que se esta reproduciendo 
+4. Compartir: permite generar el enlace, copiar: para compartir a otras personas
+5. Config
+6. Video siguiente
+7. Video anterior
+8. Inicio: recarga los videos con mas me gusta
+9. Filtro por categoria/tema: permite filtrar los videos por una categoría
+10. Redirecciona para subir videos individualmente o crear un curso
+11. Carga los videos por el mayor número de reproducciones (tendencia)
+12. Perfil: permite actualizar el perfil del usuario 
+
+## Funcionalidadess Internas
+1. Si hay un video en el query string ejemplo: https://www.wooow.digital/hook_material_design/watch?v=aaaa-bbbb-cccc-dddd lo carga y lo pone como numero uno a reproducir
+2. Organiza los videos según el número de me gusta de mayor a menor
+
+## Funcionalidad Estado del Video
+![Estado/Número de me gusta/Comentarios](_images/video_status_likes_comments.png)
+1. Permite ver el número de me gusta del video actual
+2. Permite ver los comentarios hechos sobre el video actual
+

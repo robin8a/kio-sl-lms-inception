@@ -486,13 +486,13 @@ mutation MyMutation {
 9. Filtros por Genre 
 10. UI Landing page [X]
 11. Me gusta [X]
-12. Compartir
-13. Comentar
+12. Compartir [X]
+13. Comentar [X]
 14. Búsqueda de videos por temática
 15. Editar video (filtros, efectos, tiempo, embellecer, velocidad, girar) https://www.youtube.com/watch?v=42xzuqAH5ig
 16. Editar mi perfil personal
 17. Quiero construir historia (paso a paso) [X]
-18. Store
+18. Store [X]
 
 - Autentacacion 
 - CI/CD
@@ -533,3 +533,73 @@ Problema: refineria debe dejar
 - https://stripe.com/docs/testing
 - https://www.cluemediator.com/integrate-stripe-payment-gateway-in-react
 - https://www.pluralsight.com/guides/how-to-integrate-stripe-with-react
+
+
+# Get current location URL
+
+- https://surajsharma.net/blog/current-url-in-react
+- https://www.codegrepper.com/code-examples/javascript/uselocation+hook
+
+
+# SUAN
+
+## El inicio habían dos iniciativas
+- Canabis
+- Tokenización de activos forestales
+
+## Con Luis hemos (Cardano)
+- (6*24) = COP 144M + COP 72M = 216
+- Conf Nodo
+- Nodo <-> IoT (V1,V2) <-> API <-> 
+- Contratos Inteligentes
+
+## Con William hablamos de crear una empresa llamada AGORA para prestar servicios a SUAN
+- Es un enrredo tener dos empresas que al final podrían hacer lo mismo
+- Había hablado con Jhonny que Robin y Luis se quedan 25%/2, pero AGORA es de Luis y mía
+
+## Cuales son los entregables de cada uno para SUAN?
+
+- Franco:
+  - Reuniones inversionistas y grupos de interes
+  - Recursos desde Ecopetrol (conocimiento compartido)
+
+- Robin & Luis: 
+  - No se puede hacer solo
+  - Conocimiento hasta ahora, disminuir el riesgo
+  - MVP simulado sobre UI 
+  - 100% dedicación si hay recursos para hacerlo
+  
+- William:
+  - Presentaciones
+  - Formulación y postulación de regalias
+  - Modelos
+
+- Jhony
+  - Presentaciones
+  - Modelos
+  - Presentaciones con los clientes
+
+## Estamos sin gasolina
+- Se necesita COP 53M
+
+## Que pasa si hay otras iniciativas
+- Polizas
+
+
+# SCRUM
+## Backlog
+- Unidad una tonelada de carbono
+- Mercado anual 33100 Ton CO2 X año
+- Certidicado de propiedad, derechos para cuidar, Corporaciones autónomas, 
+- Eventos de liquidez etapas temprana (Angel) Unidades de valor
+- Verificadores: Validan, standar internacional aprobado VCS(Verified Carbon Standard) 15 MDL (Mecanismo de desarrollo limpio)
+- Otros actores: compra la tonelada
+- 2do calificador
+
+# Ex.
+- 40 años
+- Creditos (1ton carbono)
+- La granularidad de 6 digitos de consumos de personas
+- 
+
+
