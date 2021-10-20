@@ -602,4 +602,6 @@ Problema: refineria debe dejar
 - La granularidad de 6 digitos de consumos de personas
 - 
 
+# Query String
+https://ui.dev/react-router-query-strings/
 
