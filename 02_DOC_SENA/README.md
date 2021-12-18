@@ -3,6 +3,7 @@
 ![Modelo Entidad Relación (E-R) Versión 2](_images/ER-DB-V2.png)
 ![Modelo Entidad Relación (E-R) Versión 3](_images/ER-DB-V3.png)
 
+## MOCCs
 1. **User** 
 - Contiene la información del usuario con su respectivo [Role] (Administrador, Publicador/Visualizador)
 
@@ -30,6 +31,24 @@
 
 9. Favorite
 - Selección de las categorías (Genre) favoritas
+
+## Tienda
+1. Product
+- Productos a vender en la tienda
+2. Price
+- Precios variables en el tiempo
+3. Measure
+- Medidas disponibles (Unidad, Kilos, Metros)
+4. Category
+- Categorias del los productos, con el fin de filtrarlos
+5. Order
+- Ordenes de compra con fecha y metodo de pago
+6. Discount
+- Descuento a aplicar sobre todos los productos
+7. Features
+- Características especiales para adicionar a cada compra (purchase)
+8. Purchase
+- Compra de un producto, precio, descuento, orden y características
 
 
 # API (AWS - AppSync - GraphQL)
