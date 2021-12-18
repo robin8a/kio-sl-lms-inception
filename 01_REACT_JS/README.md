@@ -605,3 +605,8 @@ Problema: refineria debe dejar
 # Query String
 https://ui.dev/react-router-query-strings/
 
+
+# Redirect
+- https://stackoverflow.com/questions/34735580/how-to-do-a-redirect-to-another-route-with-react-router
+- https://dev.to/projectescape/programmatic-navigation-in-react-3p1l
+- https://reactrouter.com/web/api/Redirect

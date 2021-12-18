@@ -1,6 +1,7 @@
 # Diseño de la Base de Datos
 
 ![Modelo Entidad Relación (E-R) Versión 2](_images/ER-DB-V2.png)
+![Modelo Entidad Relación (E-R) Versión 3](_images/ER-DB-V3.png)
 
 1. **User** 
 - Contiene la información del usuario con su respectivo [Role] (Administrador, Publicador/Visualizador)
@@ -27,6 +28,10 @@
 8. MoocType
 - Clasificación de los MOOCs en: PodCast, Colaborativos, ebook, Webinar, Mixto
 
+9. Favorite
+- Selección de las categorías (Genre) favoritas
+
+
 # API (AWS - AppSync - GraphQL)
 
 > Haciendo uso del diseño de la base de datos se genero el API (Application Programming Interface) para cada una de las entidades del modelo, soportado con GraphQL para la manipulación, consulta y escucha de cambios en la BD
@@ -51,6 +56,21 @@
 > La autenticación esta apalancada por AWS Cognito para el registro e inicio de sesión de los usuarios de la plataforma según su autorización (rol)
 
 ![AWS Cognito Users](_images/cognito-users.png)
+
+
+## @auth Roles 
+> Se habilito @auth para los roles (adminitrator, learners, publishers) para los siguientes modelos: 
+         - User
+         - Genre
+         - Favorite
+         - Multimedia
+         - Comment
+         - Like
+         - Follower
+         - Mooc
+         - MoocList
+         - MoocType
+> ... con el fin de autorizar las opreacion de lectura y escritura según su rol
 
 # Almacenamiento
 > El contenido multimedia se almacena en (Amazon S3 or Amazon Simple Storage Service) bajo las siguientes condiciones:
