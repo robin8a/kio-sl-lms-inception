@@ -341,3 +341,21 @@ Es un termino de machine-learning; para preguntar al modelo que haga un predicci
 1. Permite ver el número de me gusta del video actual
 2. Permite ver los comentarios hechos sobre el video actual
 
+
+# CRUD Producto (Create/Read/Update/Delete)
+
+> Permite Administrar los productos de la tienda
+![CRUD Producto](./_images/CRUD_product.png)
+
+
+# Interfaz gráfica para la selección de Categorías MOOC (Genre)
+> Permite seleccionar las categorías de mi interes con el fin de tener la prioridad al mostrar contenido multimedia
+![CRUD Producto](./_images/select_favorites.png)
+
+# Interfaz gráfica actualizada
+> Ajustes Ux/UI
+![Ux/UI updated](./_images/ui_updated.png)
+
+# Contando una historia (Video History Board)
+> Permite contar una historia con video cortos, entrelazando padre => hijos 
+[Youtube: videos entrelazados](https://www.youtube.com/watch?v=rQHzIXYd1bM)
