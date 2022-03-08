@@ -483,14 +483,14 @@ mutation MyMutation {
 7. UI player [] and cargar multimedias [X]
 - Signed URL [X] URL para evitar descargas de 3ros fuera de la plataforma
 - 
-9. Filtros por Genre 
+9. Filtros por Genre [X]
 10. UI Landing page [X]
 11. Me gusta [X]
 12. Compartir [X]
 13. Comentar [X]
-14. Búsqueda de videos por temática
-15. Editar video (filtros, efectos, tiempo, embellecer, velocidad, girar) https://www.youtube.com/watch?v=42xzuqAH5ig
-16. Editar mi perfil personal
+14. Búsqueda de videos por temática [X]
+15. Editar video (filtros, efectos, tiempo, embellecer, velocidad, girar) https://www.youtube.com/watch?v=42xzuqAH5ig [NO]
+16. Editar mi perfil personal [X]
 17. Quiero construir historia (paso a paso) [X]
 18. Store [X]
 
