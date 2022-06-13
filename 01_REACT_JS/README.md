@@ -613,3 +613,10 @@ https://ui.dev/react-router-query-strings/
 - https://stackoverflow.com/questions/34735580/how-to-do-a-redirect-to-another-route-with-react-router
 - https://dev.to/projectescape/programmatic-navigation-in-react-3p1l
 - https://reactrouter.com/web/api/Redirect
+
+
+# 
+```sh
+aws dynamodb scan --table-name Multimedia-abof5y5kkfgdtkx6wbnsw3bowe-kilmsenv --select "COUNT"
+aws dynamodb scan --table-name Multimedia-7dl25qjmgnakjjcpr4vhparv7y-bunni --select "COUNT"
+```
