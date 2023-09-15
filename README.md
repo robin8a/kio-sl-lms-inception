@@ -9,3 +9,6 @@
 ## Inteligencia Artificial para la sugerencias de videos
 - [AWS Personalize](01_AI_VIDEO_SUGGESTIONS/README.md)
 
+
+# n4na
+3. Dominios
