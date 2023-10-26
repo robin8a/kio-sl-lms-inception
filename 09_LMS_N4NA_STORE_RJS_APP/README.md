@@ -133,24 +133,31 @@ git push
 
 # Amplify Auth
 
-```sh
-amplify add auth
-# Scanning for plugins...
-# Plugin scan successful
-# Using service: Cognito, provided by: awscloudformation
- 
-#  The current configured provider is Amazon Cognito. 
- 
-#  Do you want to use the default authentication and security configuration? Defa
-# ult configuration
-#  Warning: you will not be able to edit these selections. 
-#  How do you want users to be able to sign in? Username
-#  Do you want to configure advanced settings? No, I am done.
-# Successfully added resource kiosllms9a43b205 locally
 
-# Some next steps:
-"amplify push" will build all your local backend resources and provision it in the cloud
-"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
+
+```sh
+amplify import auth
+
+amplify import auth
+Using service: Cognito, provided by: awscloudformation
+✔ What type of auth resource do you want to import? · Cognito User Pool and Identity Pool
+✔ Select the User Pool you want to import: · us-east-1_QNzkmryBb
+The User Pool has multiple Web app clients configured.
+✔ Select a Web client to import: · 2iafv10r2cbojsr1o1fvcg5e8t
+The User Pool has multiple Native app clients configured.
+✔ Select a Native client to import: · 78h1b0d25acp5emle4ofdhaiqt
+✔ Only one Identity Pool resource found: 'kiosllmsrjsapp53076f9e_identitypool_53076f9e__dev' (us-east-1:968e3823-9798-4483-b96d-092ef21622b5) was automatically selected.
+
+✅ Cognito User Pool 'kiosllmsrjsapp53076f9e_userpool_53076f9e-dev' and Identity Pool 'kiosllmsrjsapp53076f9e_identitypool_53076f9e__dev' was successfully imported.
+
+Next steps:
+
+- This resource will be available for GraphQL APIs ('amplify add api')
+- Use Amplify libraries to add sign up, sign in, and sign out capabilities to your client
+  application.
+  - iOS: https://docs.amplify.aws/lib/auth/getting-started/q/platform/ios
+  - Android: https://docs.amplify.aws/lib/auth/getting-started/q/platform/android
+  - JavaScript: https://docs.amplify.aws/lib/auth/getting-started/q/platform/js
 ```
 
 
@@ -181,23 +188,20 @@ amplify add hosting
 
 ```sh
 amplify add storage
+? Select from one of the below mentioned services: Content (Images, audio, video, etc.)
+✔ Provide a friendly name for your resource that will be used to label this category in the project: · kiolmsn4nastorerjsappstorage
+✔ Provide bucket name: · kiolmsn4nastorerjsapa7c4e4cc6c51417ea67f2616f69
+✔ Who should have access: · Auth users only
+✔ What kind of access do you want for Authenticated users? · create/update, read
+✔ Do you want to add a Lambda Trigger for your S3 Bucket? (y/N) · no
+✅ Successfully added resource kiolmsn4nastorerjsappstorage locally
 
-# ? Please select from one of the below mentioned services: Content (Images, audi
-# o, video, etc.)
-# ? Please provide a friendly name for your resource that will be used to label t
-# his category in the project: s35d0d1bb2
-# ? Please provide bucket name: kio-lms-n4na-store-rjs-appb2100efba69f4dfaa1abc0e390f62647
-# ? Who should have access: Auth and guest users
-# ? What kind of access do you want for Authenticated users? create/update, read,
-#  delete
-# ? What kind of access do you want for Guest users? read
-# ? Do you want to add a Lambda Trigger for your S3 Bucket? No
-# Successfully updated auth resource locally.
-# Successfully added resource s35d0d1bb2 locally
-
-Some next steps:
+⚠️ If a user is part of a user pool group, run "amplify update storage" to enable IAM group policies for CRUD operations
+✅ Some next steps:
 "amplify push" builds all of your local backend resources and provisions them in the cloud
 "amplify publish" builds all of your local backend and front-end resources (if you added hosting category) and provisions them in the cloud
+
+TODO: Add 
 ```
 
 # Amplify API

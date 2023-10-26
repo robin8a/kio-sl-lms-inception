@@ -236,3 +236,21 @@ Some next steps:
 "amplify publish" builds all of your local backend and front-end resources (if you added hosting category) and provisions them in the cloud
 ```
 
+
+# Analytics
+
+```sh
+amplify add analytics
+? Select an Analytics provider Amazon Pinpoint
+✔ Provide your pinpoint resource name: · kiosllmsrjsapp
+⚠️ Specified resource configuration requires Cognito Identity Provider unauthenticated access but it is not enabled.
+⚠️ Adding analytics would add the Auth category to the project if not already added.
+? Apps need authorization to send analytics events. Do you want to allow guests and unauthenticated users to send analytics events? (we recommend you all
+ow this when getting started) Yes
+✅ Successfully updated auth resource locally.
+✅ Successfully added resource kiosllmsrjsapp locally
+
+✅ Some next steps:
+"amplify push" builds all of your local backend resources and provisions them in the cloud
+"amplify publish" builds all your local backend and front-end resources (if you have hosting category added) and provisions them in the cloud
+```
