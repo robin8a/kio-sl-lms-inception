@@ -16,5 +16,39 @@
 # CLI
 ```sh
 aws kinesis list-streams
+
+
+    "StreamNames": [
+        "kiosllmsrjsappKinesis-dev"
+    ],
+    "StreamSummaries": [
+        {
+            "StreamName": "kiosllmsrjsappKinesis-dev",
+            "StreamARN": "arn:aws:kinesis:us-east-1:036134507423:stream/kiosllmsrjsappKinesis-dev",
+            "StreamStatus": "ACTIVE",
+            "StreamModeDetails": {
+                "StreamMode": "PROVISIONED"
+            },
+            "StreamCreationTimestamp": "2023-10-31T14:28:09-05:00"
+        }
+    ]
+}
+
+aws kinesis describe-stream-summary --stream-name kiosllmsrjsappKinesis-dev
+
+aws kinesis put-record --stream-name kiosllmsrjsappKinesis-dev --partition-key 123 --data testdata
+
+aws kinesis get-shard-iterator --shard-id shardId-000000000000 --shard-iterator-type TRIM_HORIZON --stream-name kiosllmsrjsappKinesis-dev
+
+{
+    "ShardIterator": "AAAAAAAAAAH9kES7x3z2xvoIH2U4jmuXmaiCr95JECYpKRTmlkYOGY0cV0/jf5RCPMFDqGaqNCnb7UBDCEvlA/ISf4E9YAY/EAYpinMB3+5NOyPVQOly75j+0J8RcT7hvTfRafIF1llATxbR0HcPDBiUYxPdPv0r+mm7u4073trNshpNbO6MHVr0wefTRWoSD1a166DOayjws/yAyeDzM+Kn93iFtlHUjrCjWzFovQ26iUX0xpnx8Wq99mtkZ7d2mHpMspoOO9c="
+}
+
+aws kinesis get-records --shard-iterator AAAAAAAAAAH9kES7x3z2xvoIH2U4jmuXmaiCr95JECYpKRTmlkYOGY0cV0/jf5RCPMFDqGaqNCnb7UBDCEvlA/ISf4E9YAY/EAYpinMB3+5NOyPVQOly75j+0J8RcT7hvTfRafIF1llATxbR0HcPDBiUYxPdPv0r+mm7u4073trNshpNbO6MHVr0wefTRWoSD1a166DOayjws/yAyeDzM+Kn93iFtlHUjrCjWzFovQ26iUX0xpnx8Wq99mtkZ7d2mHpMspoOO9c=
+
+SHARD_ITERATOR=$(aws kinesis get-shard-iterator --shard-id shardId-000000000000 --shard-iterator-type TRIM_HORIZON --stream-name kiosllmsrjsappKinesis-dev --query 'ShardIterator')
+
+aws kinesis get-records --shard-iterator $SHARD_ITERATOR
+
 ```
 
