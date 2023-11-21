@@ -13,6 +13,9 @@
 - https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-select-sql-reference-aggregate.html
 - https://www.youtube.com/watch?v=xu3A_7DcRgQ
 
+## Kinesis datastream => Firehose => s3 (cvs)
+- [How can I convert a JSON to CSV using data transformation (lambda and python) in a Kinesis Firehose?](https://www.youtube.com/watch?v=w0EaPnGNPZA)
+
 # CLI
 ```sh
 aws kinesis list-streams
