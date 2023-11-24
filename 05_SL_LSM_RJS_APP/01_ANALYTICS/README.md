@@ -103,6 +103,9 @@ SELECT SUM(CAST(_8 as INT)) FROM s3object s WHERE _1 LIKE 'count_visitor_number%
 ## Modes
 - ![Modes](./_images/kinesis_modes.png)
 
+# Firehose
+![process](./_images/firehose.png)
+
 # Solution
 
 ## Kinesis datastream => Firehose => s3 (cvs)
