@@ -8,6 +8,7 @@
 ## AWS Invented (good example)
 - https://www.youtube.com/watch?v=xu3A_7DcRgQ
 
+
 ## Pricing
 - https://aws.amazon.com/kinesis/data-streams/pricing/
 
@@ -111,3 +112,7 @@ SELECT SUM(CAST(_8 as INT)) FROM s3object s WHERE _1 LIKE 'count_visitor_number%
 ## Kinesis datastream => Firehose => s3 (cvs)
 
 ![Process](./_images/solution.png)
+
+
+## Unified 
+- https://stackoverflow.com/questions/64687837/aws-lambda-combine-multiple-csv-files-from-s3-into-one-file
