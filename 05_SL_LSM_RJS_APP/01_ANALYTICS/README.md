@@ -116,3 +116,38 @@ SELECT SUM(CAST(_8 as INT)) FROM s3object s WHERE _1 LIKE 'count_visitor_number%
 
 ## Unified 
 - https://stackoverflow.com/questions/64687837/aws-lambda-combine-multiple-csv-files-from-s3-into-one-file
+
+SUAN Global
+
+# Data Engineering
+
+## ETL Glue 
+### Pricing
+- https://aws.amazon.com/glue/pricing/?nc1=h_ls
+
+## Parquet
+- Prefered for analytics
+- Long storage eficiency
+
+## HDFS (Haadop Distributed File System)
+- Dynamic data is not a good solution
+
+## Modelo de programación Map Reduce
+- [Map Reduce Tutorial](https://youtu.be/yaeLIiHVPw4?si=mPZ4tspmHZa-6i2d)
+[Reducer](./_images/map_reducer.png)
+
+## Apache Spark
+[Master/Nodos](./_images/spark.png)
+- Framework
+- Usa parquet
+- https://www.youtube.com/watch?v=B038xGcnaG4
+- Procesar grandes de cantidades de datos
+- Computación distribuida
+- Master
+- Nodos
+- MapReduce (divide y conquista)
+
+### ML
+- MLib
+- GraphX analisis de grafos
+
