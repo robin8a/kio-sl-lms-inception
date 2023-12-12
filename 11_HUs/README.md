@@ -1,3 +1,5 @@
+# Referencias
+- - https://www.commonsense.org/education/lists/best-coding-tools-for-elementary
 
 # @sergio Capacitaciones
 ## Pensamiento computacional
@@ -12,6 +14,12 @@
 - Alimentar la tienda virtual
 - BD, notion: productos educativos para potenciar el aprendizaje de los niños
 
+
+
+
+## code.org 
+- [Code.org](https://code.org/)
+- [Minecraft](https://code.org/minecraft)
 
 # @sergio Materiales, dispositivos y herramientas
 ## Fotometria
