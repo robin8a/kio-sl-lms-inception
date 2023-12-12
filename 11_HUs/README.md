@@ -1,0 +1,48 @@
+
+# @sergio Capacitaciones
+## Pensamiento computacional
+
+- Buscar herramientas para entender 
+- Identificar productos ganadores, los mas vendidos
+- AI, portales conocidos
+- Alibaba
+- Newarrivals
+- Amazon
+- Bestseller
+- Alimentar la tienda virtual
+- BD, notion: productos educativos para potenciar el aprendizaje de los niños
+
+
+# @sergio Materiales, dispositivos y herramientas
+## Fotometria
+- Instructivo de uso
+- De cara a los nińos
+- Video tutoriales
+- Que lo entiendan los niños
+## Camaras mulitespectrales
+
+
+# @robin Plan de lanzamiento de la plataforma n4na
+- @camilo soportar
+- plan de expansión nacional
+- mayor cantidad de niños suban 
+- concurso 1 video de 1 minuto, ensañando 
+
+
+## @robin Manuales de usuario para el manejo de equipos
+- instrucciones para niños
+- scanes 3D
+- gafas 
+- cortadora laser
+- prototipado rápido
+- material capacitación
+
+## @robin AI 
+- Permitan el diseño 3D
+- Imprimir 
+- Sketch up
+- Thiker cat
+- Prompt y se lo diseñe
+
+
+
