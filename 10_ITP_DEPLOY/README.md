@@ -15,3 +15,5 @@
 - https://docs.amplify.aws/react/start/getting-started/installation/
 - [Amplify configure](./RJS_APP/README.md)
 
+# Alarma de incendios forestales
+- AI con camaras
