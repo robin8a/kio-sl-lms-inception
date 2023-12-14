@@ -20,6 +20,7 @@
 ## code.org 
 - [Code.org](https://code.org/)
 - [Minecraft](https://code.org/minecraft)
+- [Scratch Jr](https://www.scratchjr.org/)
 
 # @sergio Materiales, dispositivos y herramientas
 ## Fotometria
