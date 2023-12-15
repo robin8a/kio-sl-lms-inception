@@ -77,3 +77,8 @@
 - Noticias
 - Enlaces a los simuladores
 
+# En perfil
+- Crear cursos
+- Avances del curso
+- En cuales estoy inscrito
+
