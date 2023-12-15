@@ -69,9 +69,11 @@
 - Agregar 
 - Videos propios, si son de terceros reconocer con marca de agua el autor y agregar el link original
 
-
-
 # Quitar las opciones de Validación, Desafios para usuarios regulares
 
 
+# Dashboard
+- Crear mis cursos
+- Noticias
+- Enlaces a los simuladores
 
