@@ -54,7 +54,12 @@ aws codecommit create-repository --repository-name kio-sl-legal-docs-rjs-app --r
 # git
 
 ```sh
+
 ssh-keygen
+# or if to short the key
+ssh-keygen -t rsa -b 4096
+
+# Type
 /Users/robinochoa/.ssh/kio_sl_legal_docs_rjs_app_rsa
 
 cat ~/.ssh/kio_sl_legal_docs_rjs_app_rsa.pub
@@ -117,6 +122,13 @@ amplify add auth
 "amplify push" will build all your local backend resources and provision it in the cloud
 "amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
 ```
+
+# API
+
+```
+amplify add api
+```
+
 
 huggins face
 chatbot
