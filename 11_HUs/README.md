@@ -54,4 +54,10 @@
 - Prompt y se lo diseñe
 
 
+# R&D
+## 3D AI
+### Capture
+https://lumalabs.ai/
+### 3D prompt
+(AI Text Prompt to 3D Models Using Genie AI 3D (Then Into Blender)[https://www.youtube.com/watch?v=GjzZa5U6frU]
 
