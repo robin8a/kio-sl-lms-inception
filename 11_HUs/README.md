@@ -61,3 +61,14 @@ https://lumalabs.ai/
 ### 3D prompt
 (AI Text Prompt to 3D Models Using Genie AI 3D (Then Into Blender)[https://www.youtube.com/watch?v=GjzZa5U6frU]
 
+
+# Paula Molina
+1 año
+
+Propiedad intelectual de la empresa
+
+Un dashboard
+Dos reportes
+Entrenamiento para hagan sus reportes
+
+Calculos anuales
