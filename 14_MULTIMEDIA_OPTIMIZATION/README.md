@@ -1,6 +1,9 @@
 # Optimización
+## HLS
+- Example: https://codesandbox.io/s/hls-player-1icqul
 
 ## Imágenes
+- convert.io
 
 ## Videos
 - Descargar videos offline
@@ -32,7 +35,8 @@ uuid_video_720...
 - https://medium.com/@samuelspycher/record-hls-live-streams-as-mp4-to-s3-using-aws-lambda-and-ffmpeg-cc96cfd583da
 
 # Amazon Media Convert
-- Costos
+- Costos: https://aws.amazon.com/mediaconvert/pricing/
 - https://aws.amazon.com/mediaconvert/
+
 
 
