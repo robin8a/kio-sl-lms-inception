@@ -1,7 +1,6 @@
 # Chat GPT costs
 - https://medium.com/@iamshowkath/chatgpt-pricing-a-complete-guide-to-chatgpt-cost-estimation-and-price-optimization-8e1e7c2c8619
-
-
+- https://agtecher.com/how-openai-and-chatgpt-can-be-used-in-agriculture/
 
 # Modelo ABC:
 
@@ -58,6 +57,20 @@ Comunica los cambios a todas las partes interesadas para obtener su apoyo y comp
 
 - [Basic exmples to getting start](https://www.indeed.com/career-advice/career-development/how-to-calculate-activity-based-costing)
 
+- [Time Driven Activity Based Costing (TDABC): A Complete Guide](https://www.costperform.com/time-driven-activity-based-costing-tdabc-a-complete-guide/)
+
+- https://www.sciencedirect.com/science/article/pii/S2199853122008101
+
+## Is there an API for ABC costing model?
+
+As of my last knowledge update in January 2022, there isn't a specific standardized API (Application Programming Interface) for Activity-Based Costing (ABC) models that is universally recognized or widely used. ABC costing models are typically implemented using various software solutions, and the APIs, if available, would be specific to those individual software platforms.
+
+If you are using a specific ABC costing software or tool, you should check the documentation provided by the software vendor to see if they offer an API for integration. Many modern business intelligence and enterprise resource planning (ERP) systems may provide APIs that allow for programmatic access to data and functionalities related to cost allocation and management.
+
+Keep in mind that developments in software and technology can occur, so it's a good idea to check with the latest sources, including the official documentation of the software you are using or considering for ABC costing.
+
+If you're working on a custom implementation of an ABC costing model using machine learning or other techniques, you might need to develop your own API for integration with other systems or applications. In such cases, web frameworks like Flask or Django in Python can be used to create RESTful APIs.
+
 
 # AI ABC model costing
 
@@ -68,9 +81,22 @@ Comunica los cambios a todas las partes interesadas para obtener su apoyo y comp
 
 ## Google Collab
 - https://colab.research.google.com/drive/1dXwN796P9U9oS5PKFvGK6bUHN8G95dF5
-
 - https://books.google.com.co/books/about/Implementing_Activity_based_Cost_Managem.html?id=jUcPAQAAMAAJ&redir_esc=y
 
 
 
+# Open Source
+- [odoo "not online, requires installation" ](ttps://apps.odoo.com/apps/modules/14.0/analytic_activity_based_cost/)
 
+
+# Payed
+- http://abcsoftware.org/pricing.aspx
+- https://www.peerspot.com/categories/activity-based-costing-software
+- https://www.costperform.com/solutions/activity-based-costing-software/
+
+
+# Opciones
+1. Usar un software del mercado, puede ser microsoft o oracle pero los costos deben ser alto y quedamos atados a su tecnología
+2. User una software open source, aunque en la búsqueda inicial no lo encontré 
+3. Crear un API básico y conectarlo con ChatGPT, como una prueba básica e ir escalandolo. 
+4. Crear una herramienta online

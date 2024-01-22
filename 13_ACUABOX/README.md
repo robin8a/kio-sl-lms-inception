@@ -1,36 +1,42 @@
-# Un solo gateway
+# Raspberry Pi on computer vision
+The goal is to provide a raspberry pi with the hardware to convert into a independet computer vision processor
+
+# Google Coral
+Refers to a platform developed by Google that focuses on edge computing and machine learning. The Coral platform provides hardware and software tools to enable the deployment of AI and machine learning models on edge devices, such as IoT (Internet of Things) devices.
+
+The Coral hardware includes development boards like the Coral Dev Board and USB Accelerator, which incorporate Google's Edge TPU (Tensor Processing Unit), a specialized hardware accelerator for machine learning inference. The Edge TPU is designed to accelerate the execution of machine learning models on edge devices with low latency and power efficiency.
 
 
-# Imagenes Raspberry Pi
+# Train models with
+You can train your own machine learning models and deploy them on Google Coral devices. The Coral platform is designed to support both pre-trained models and models you train yourself. Here's a basic overview of the process:
 
-# Sensores
-- Arduinos
-- RC425 
-- Cada sensor tiene
-- Temperatura
-- ONP Potencial Oxireducción
-- PH 
-- Oxigeno
-- Conductividad
+## Train Your Model:
 
-# Salidas
-- Motor, propela, potencia
-- Activación tolva
+You can use popular machine learning frameworks such as TensorFlow or PyTorch to train your models on a computer with more computational resources.
+Ensure that your model is compatible with TensorFlow Lite, as Coral devices typically use TensorFlow Lite for running models.
 
-# Bote
-- Estanques de tierra
-- 4 botes
-- 4 tanques
-- 1.5m
-- Bote, que pueda cargar
-- Cada estanque requiete un bote, se mueve el bote
-- Bote tolva, carga de concentrado
-- IP
-- Lina, mandrake. Render del bote
-- Dos camaras, integrador de camaras
+## Convert the Model:
 
-#  
-- Reporte del sistema, esquema
-- Cual raspberry
-- Camaras
+Once your model is trained, you may need to convert it to a format that is compatible with Coral devices. For example, you might use TensorFlow Lite Converter to convert your TensorFlow model to TensorFlow Lite format.
 
+## Optimize for Edge TPU:
+
+Google's Coral devices often include an Edge TPU (Tensor Processing Unit) for accelerated inferencing. To take advantage of this, you may need to further optimize your model for the Edge TPU. Google provides tools and documentation for this purpose.
+
+## Deploy on Coral Device:
+
+Transfer the optimized model to your Coral device. Google Coral supports different hardware, including the Coral Dev Board and USB Accelerator.
+
+## Run Inference:
+
+Once the model is deployed on the Coral device, you can use it to perform inference on new data directly on the edge device.
+Google provides comprehensive documentation and tools to assist developers in this process. You can find resources, guides, and sample code on the official Google Coral website.
+
+
+# Costs
+
+| Item | Link | Price |   |   |
+|------|------|-------|---|---|
+|      |      |       |   |   |
+|      |      |       |   |   |
+|      |      |       |   |   |
