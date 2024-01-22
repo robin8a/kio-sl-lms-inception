@@ -97,6 +97,6 @@ If you're working on a custom implementation of an ABC costing model using machi
 
 # Opciones
 1. Usar un software del mercado, puede ser microsoft o oracle pero los costos deben ser alto y quedamos atados a su tecnología
-2. User una software open source, aunque en la búsqueda inicial no lo encontré 
+2. User una software open source, aunque en la búsqueda inicial solo encontre a oodo
 3. Crear un API básico y conectarlo con ChatGPT, como una prueba básica e ir escalandolo. 
 4. Crear una herramienta online
