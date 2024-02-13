@@ -1,6 +1,7 @@
 # Optimización
 ## HLS
 - Example: https://codesandbox.io/s/hls-player-1icqul
+- 
 
 ## Imágenes
 - convert.io

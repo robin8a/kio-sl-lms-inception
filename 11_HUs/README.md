@@ -72,3 +72,52 @@ Dos reportes
 Entrenamiento para hagan sus reportes
 
 Calculos anuales
+
+
+# ReunionSynclar
+
+## Market research
+- Investigación de mercados
+- En un par de días 
+
+## Panales online
+- Sistema de recompensas
+
+# Plataformas de investigación de mercado
+- Crear tus encuentas
+- Encuestas a diferentes targets
+- Diferentes publicos
+- Conectada a panales online
+- Automatización de los procesos
+- Se procesa automaticamente, y se presenta en tiempo real
+
+# Dos restricciones
+- En Colombia distribución, nacional. Ciudades principales
+- Municipios mas pequeños
+- Se contestan en el movil, 500 metros 
+- Paneles online, mas dificil estrato 1 y 2 
+
+# Encuentas
+- Cual es el publico objetivo
+- Estudiantes, dificil
+- Teenager, 16 y 17 años
+- Papas, padres con hijos
+- asesoramiento por parte 
+- modelo de subscripción de USD 25K al año
+
+# Q&A
+- Estudio minimo 200 encuentas
+- Cuotas, balance hombres y mujeres
+- < 70 a personas
+- 
+
+# Startup
+- Otros caminos
+- Veamos la posibilidad 
+- Abogar una alternativ, flexibilidad. Bajo proyecto
+
+# Integrados con terceso 3th Party
+- Netquest
+- Offerwise
+- Comunidad activa
+- Ganan incentivos

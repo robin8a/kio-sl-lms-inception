@@ -1,3 +1,6 @@
+# MD editor
+https://www.tablesgenerator.com/markdown_tables
+
 # Raspberry Pi on computer vision
 The goal is to provide a raspberry pi with the hardware to convert into a independet computer vision processor
 
@@ -32,11 +35,22 @@ Transfer the optimized model to your Coral device. Google Coral supports differe
 Once the model is deployed on the Coral device, you can use it to perform inference on new data directly on the edge device.
 Google provides comprehensive documentation and tools to assist developers in this process. You can find resources, guides, and sample code on the official Google Coral website.
 
+# Raspberry
+
+
+# Architecture
+
+
 
 # Costs
 
-| Item | Link | Price |   |   |
-|------|------|-------|---|---|
-|      |      |       |   |   |
-|      |      |       |   |   |
-|      |      |       |   |   |
+| Item                              | Item Link                                                   | StoreLink    | Price (USD) |   |
+|-----------------------------------|-------------------------------------------------------------|--------------|-------------|---|
+| Raspberry                         | [RP5](https://www.raspberrypi.com/products/raspberry-pi-5/) | [Amazon Kit] | 170         |   |
+| Freenove 5MP Camera for Raspberry |                                                             | [Amazon]     | 12          |   |
+| Google Coral                      | [Coral](https://coral.ai/)                                  | [Coral]      | 60          |   |
+
+TOTAL: USD 242
+
+# Market research
+
