@@ -18,6 +18,15 @@ https://llava-vl.github.io/
 
 
 # Others
+- https://roboflow.com/models
+- https://www.qblocks.cloud/creators/computer-vision-google-colab-notebooks
+- https://project-splinter.github.io/
+- https://cloud.google.com/tpu/docs/intro-to-tpu?hl=es-419#:~:text=Las%20unidades%20de%20procesamiento%20tensorial,TPU%2C%20consulta%20Arquitectura%20del%20sistema.
+- https://colab.research.google.com/notebooks/pro.ipynb
+- Geometría descriptiva
+- Geopandas: https://www.youtube.com/watch?v=7F2I3IwqVh0
+- https://cybergisxhub.cigi.illinois.edu/notebook/spatial-data-exploration-and-visualization-on-google-colab/
+- https://colab.research.google.com/github/daveluo/zanzibar-aerial-mapping/blob/master/geo_fastai_tutorial01_public_v1.ipynb
 - Gemini
 - ChatGTP 4, pay?
 - Pygraph
@@ -30,3 +39,6 @@ https://llava-vl.github.io/
 
 # Gestioar mi emprsa con AI
 - https://www.xataka.com/robotica-e-ia/alguien-monto-empresa-donde-todos-cargos-eran-ia-creo-su-primer-software-siete-minutos-euro
+
+
+1234567890
