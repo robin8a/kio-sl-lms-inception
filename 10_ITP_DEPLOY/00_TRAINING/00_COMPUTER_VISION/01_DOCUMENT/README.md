@@ -1,11 +1,30 @@
 # Introducción
+Visión computarizada es el campo de estudio que se  enfoca en habilitar el entendimiento e interpretar información visual del mundo real, que involucra el desarrollo de algoritmos y técnicas para extraer información relevante de imágenes o videos.
 
 # Aplicaciones en el mundo real
+- Filtrado y mejora de imágenes
+- Detección de Bordes (Edge detection)
+- Segmentación
+- Reconocimiento de objetos
+- Seguimiento de objetos
+- Clasificación de imágenes
+- Analisis de video
+- Detección de rostros
+- Unión de imágenes
+- Robotics
+- Biología y medicina
+- Conducción automática
+- Detección puntos clave
+
+## Filtrado y mejora de imágenes
 
 
 # Cinturon de herramientas
 ![My belt tools](./_images/batman_tool_belt.webp)
 
+## Python
+Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código, se utiliza para desarrollar aplicaciones de todo tipo, por ejemplo: Instagram, Netflix, Spotify, Panda3D, entre otros.​ Wikipedia
+- 
 
 ## Jupyter
 > El Proyecto Jupyter es una organización sin ánimo de lucro creada para "desarrollar software de código abierto, estándares abiertos y servicios para computación interactiva en docenas de lenguajes de programación [Fuente: Wikipedia][https://es.wikipedia.org/wiki/Proyecto_Jupyter]
@@ -13,12 +32,21 @@
 
 ## Markdown:
 > Markdown es un lenguaje de marcado ligero creado por John Gruber y Aaron Swartz que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano. [Fuente: Wikipedia][https://en.wikipedia.org/wiki/Markdown]
-> [Guía inicial](https://colab.research.google.com/notebooks/markdown_guide.ipynb)
+- [Guía inicial](https://colab.research.google.com/notebooks/markdown_guide.ipynb)
 
 ## Google Colab
 > Colab es un servicio alojado de Jupyter Notebook que no requiere configuración para su uso y proporciona acceso gratuito a recursos informáticos, incluidas GPU y TPU. Colab es especialmente adecuado para el aprendizaje automático, la ciencia de datos y la educación. [Colab](https://colab.google/)
-> [Descripción general](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
-> [Iniciando con Google Colab](https://colab.research.google.com/?utm_source=scs-index#scrollTo=qB3bdLe8jkAa)
+- [Descripción general](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
+- [Iniciando con Google Colab](https://colab.research.google.com/?utm_source=scs-index#scrollTo=qB3bdLe8jkAa)
+
+## Raspberry Pi
+
+## Roboflow
+
+## AWS Rekognition
+
+## AWS Sagemaker
+
 
 
 
