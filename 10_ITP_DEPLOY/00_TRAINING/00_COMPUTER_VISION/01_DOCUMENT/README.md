@@ -28,7 +28,7 @@ Una vez capturados los datos, la computadora los procesa utilizando algoritmos y
 
 ## Python
 > Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código, se utiliza para desarrollar aplicaciones de todo tipo, por ejemplo: Instagram, Netflix, Spotify, Panda3D, entre otros.​ Wikipedia
-![Iniciando con Python](https://colab.research.google.com/drive/1LBSBIey9XqEbtDpxs9Z6FGjOnGY74BJC?usp=sharing)
+- [Iniciando con Python](https://colab.research.google.com/drive/1LBSBIey9XqEbtDpxs9Z6FGjOnGY74BJC?usp=sharing)
 
 ## Jupyter
 > El Proyecto Jupyter es una organización sin ánimo de lucro creada para "desarrollar software de código abierto, estándares abiertos y servicios para computación interactiva en docenas de lenguajes de programación [Fuente: Wikipedia][https://es.wikipedia.org/wiki/Proyecto_Jupyter]
@@ -48,11 +48,86 @@ Una vez capturados los datos, la computadora los procesa utilizando algoritmos y
 
 ## Raspberry Pi
 
+![Raspberry Pi 5](./_images/raspberry_pi_5.webp)
+
+Raspberry Pi es una serie de computadoras de placa única (SBC, por sus siglas en inglés, Single Board Computer) desarrollada por la Raspberry Pi Foundation, una organización benéfica con el objetivo de promover la educación en informática y la tecnología en general. Estas placas están diseñadas para ser económicas, compactas y versátiles, lo que las hace ideales para una amplia gama de proyectos de electrónica, informática y robótica.
+
+Hay varias razones por las cuales usar Raspberry Pi en proyectos de visión computarizada:
+
+1. **Costo**: Raspberry Pi es una opción económica en comparación con otras plataformas de computación, lo que lo hace accesible para proyectos de bajo presupuesto.
+
+2. **Tamaño compacto**: Su tamaño compacto lo hace ideal para aplicaciones donde el espacio es limitado, como sistemas embebidos o dispositivos portátiles.
+
+3. **Bajo consumo de energía**: Raspberry Pi consume menos energía en comparación con computadoras convencionales, lo que lo hace adecuado para proyectos que requieren eficiencia energética, como dispositivos alimentados por batería.
+
+4. **Gran comunidad y soporte**: Raspberry Pi tiene una gran comunidad de usuarios y desarrolladores que proporcionan una amplia gama de recursos, tutoriales y bibliotecas de software para ayudar en el desarrollo de proyectos, incluidos proyectos de visión computarizada.
+
+5. **Interfaz GPIO (Entrada/Salida de Propósito General)**: Raspberry Pi tiene pines GPIO que permiten la conexión de sensores, cámaras y otros dispositivos periféricos, lo que lo convierte en una plataforma versátil para proyectos de visión computarizada que requieren interacción con el entorno.
+
+6. **Flexibilidad y capacidad de personalización**: Raspberry Pi es altamente personalizable y se puede adaptar para satisfacer las necesidades específicas de un proyecto de visión computarizada, ya sea mediante el uso de diferentes cámaras, módulos adicionales o software personalizado.
+
+### Google Coral
+Se refiere a una plataforma desarrollada por Google que se centra en la informática de punta y el aprendizaje automático. La plataforma Coral proporciona herramientas de hardware y software para permitir la implementación de modelos de inteligencia artificial y aprendizaje automático en dispositivos perimetrales, como los dispositivos IoT (Internet de las cosas).
+
+El hardware de Coral incluye placas de desarrollo como Coral Dev Board y USB Accelerator, que incorporan Edge TPU (Unidad de procesamiento tensor) de Google, un acelerador de hardware especializado para la inferencia de aprendizaje automático. Edge TPU está diseñado para acelerar la ejecución de modelos de aprendizaje automático en dispositivos de borde con baja latencia y eficiencia energética.
+
+## Referencias
+
+- [Computer Vision on Raspberry Pi - Beginner to Advanced
+](https://www.udemy.com/share/101BxU3@NVYDuOWs1uDUx_BhTwMk2GzjroA93xQiaMyEkW5mtlUCQhSG-qrg7RJ2dHKeWASo/)
+
+
 ## Roboflow
+<p><a href="https://roboflow.com?wvideo=a2p0sj4bcm"><img src="https://embed-ssl.wistia.com/deliveries/b7e430f3200463b8c4b79e776906cc920350152b.jpg?image_play_button_size=2x&amp;image_crop_resized=960x720&amp;image_play_button=1&amp;image_play_button_color=6706cee0" width="400" height="300" style="width: 400px; height: 300px;"></a></p><p><a href="https://roboflow.com?wvideo=a2p0sj4bcm">Roboflow: Give your software the power to see objects in images and video</a></p>
+
+Roboflow proporciona todo lo que necesita para etiquetar, entrenar e implementar soluciones de visión por computadora.
+- [Iniciando con Roboflow](https://blog.roboflow.com/getting-started-with-roboflow/)
+
 
 ## AWS Rekognition
 
+Amazon Rekognition es un servicio de AWS (Amazon Web Services) que proporciona capacidades avanzadas de visión por computadora para análisis de imágenes y videos. Cada uno de lo servicios se consumen a través del llamado de APIs, así mismo los costos están asociados al uso.
+
+
+Algunos de los principales servicios ofrecidos por Amazon Rekognition son:
+
+1. **Detección de caras**: Permite detectar y reconocer caras en imágenes y videos, así como realizar análisis de atributos faciales como la edad, el género, las emociones y el uso de accesorios como gafas o barbas.
+
+2. **Reconocimiento de contenido visual**: Proporciona la capacidad de identificar y reconocer objetos, escenas y texto en imágenes y videos. Esto puede ser útil para clasificar imágenes basadas en su contenido visual o para buscar y etiquetar automáticamente imágenes en grandes colecciones.
+
+3. **Análisis de contenido inapropiado**: Permite detectar contenido inapropiado, como desnudez o violencia, en imágenes y videos. Esto es útil para aplicaciones de moderación de contenido en redes sociales, sitios web o plataformas de transmisión de video.
+
+4. **Análisis de celebridades**: Permite identificar y reconocer a celebridades en imágenes y videos.
+
+5. **Reconocimiento de texto**: Proporciona capacidades para detectar y extraer texto de imágenes y videos, lo que puede ser útil para tareas de reconocimiento óptico de caracteres (OCR) y procesamiento de documentos.
+
+6. **Análisis de contenido de video**: Ofrece funciones para analizar el contenido visual y el movimiento en videos, como la detección de actividad humana, seguimiento de objetos y estimación de puntos de referencia.
+
+7. **Indexación y búsqueda de contenido visual**: Permite indexar y buscar imágenes y videos en función de su contenido visual, lo que facilita la búsqueda y recuperación de medios en grandes colecciones de datos.
+
+- [Iniciando con Amazon Rekognition](https://docs.aws.amazon.com/rekognition/latest/dg/getting-started.html)
+
+
 ## AWS Sagemaker
+Amazon SageMaker es un servicio completamente administrado por Amazon Web Services (AWS) que permite a los desarrolladores e ingenieros de datos construir, entrenar y desplegar modelos de machine learning de manera rápida y sencilla. Ofrece una serie de herramientas y recursos que simplifican el proceso de desarrollo de modelos de machine learning, desde la preparación de los datos hasta la implementación en producción.
+
+
+1. **Entorno de desarrollo integrado (IDE)**: SageMaker proporciona un entorno de desarrollo integrado basado en la nube que permite a los usuarios escribir, ejecutar y depurar código en Python utilizando Jupyter Notebooks. Esto facilita la experimentación con algoritmos de machine learning y la visualización de resultados.
+
+2. **Preprocesamiento y limpieza de datos**: SageMaker ofrece herramientas para la preparación y limpieza de datos, lo que incluye funciones para realizar transformaciones, normalizaciones y otras operaciones sobre conjuntos de datos antes de entrenar modelos.
+
+3. **Entrenamiento de modelos**: SageMaker facilita el entrenamiento de modelos de machine learning utilizando una amplia gama de algoritmos y marcos de trabajo populares, como TensorFlow, PyTorch, scikit-learn y MXNet. Además, permite el entrenamiento distribuido para acelerar el proceso de entrenamiento en grandes conjuntos de datos.
+
+4. **Optimización automática de modelos (AutoML)**: SageMaker ofrece capacidades de AutoML para automatizar el proceso de búsqueda de los hiperparámetros óptimos y la arquitectura del modelo. Esto ayuda a mejorar el rendimiento de los modelos de machine learning sin la necesidad de ajustes manuales.
+
+5. **Despliegue de modelos**: Una vez que se ha entrenado un modelo, SageMaker facilita su implementación en producción mediante la creación de puntos finales de inferencia que pueden ser fácilmente integrados en aplicaciones y servicios.
+
+6. **Escalabilidad y administración de recursos**: SageMaker gestiona automáticamente la infraestructura subyacente necesaria para el desarrollo, entrenamiento y despliegue de modelos, lo que permite escalar recursos de manera dinámica según las necesidades del usuario.
+
+7. **Monitoreo y gestión de modelos en producción**: SageMaker proporciona herramientas para monitorear el rendimiento de los modelos en producción, lo que incluye la detección de anomalías y la capacidad de realizar actualizaciones automáticas o manuales de los modelos desplegados.
+
+En resumen, Amazon SageMaker es una plataforma integral que agiliza y simplifica el ciclo de vida completo de desarrollo de modelos de machine learning, desde la preparación de los datos hasta la implementación en producción, todo dentro de un entorno integrado y escalable en la nube.
+- [Iniciando con Amazon Sagemaker](https://docs.aws.amazon.com/sagemaker/latest/dg/gs.html)
 
 
 
