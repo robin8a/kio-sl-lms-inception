@@ -46,6 +46,19 @@ Una vez capturados los datos, la computadora los procesa utilizando algoritmos y
 - [Aprovecha al máximo Colab](https://colab.research.google.com/#scrollTo=qB3bdLe8jkAa)
 - [Original: ](https://colab.research.google.com/)
 
+### Librerias
+
+- Numpy es una biblioteca de manipulación de matrices, utilizada para álgebra lineal, transformada de Fourier y capacidades de números aleatorios. [Tutorial](https://colab.research.google.com/github/google/eng-edu/blob/main/ml/cc/exercises/numpy_ultraquick_tutorial.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=numpy_tf2-colab&hl=en)
+
+- Pandas es una biblioteca para la manipulación y el análisis de datos. [Tutorial](https://colab.research.google.com/github/google/eng-edu/blob/main/ml/cc/exercises/pandas_dataframe_ultraquick_tutorial.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=pandas_tf2-colab&hl=en)
+
+- CV2 es una biblioteca para tareas de visión artificial. [Open CV Fundamentals ](https://colab.research.google.com/github/computationalcore/introduction-to-opencv/blob/master/notebooks/1-Fundamentals.ipynb)
+
+
+NumPy UltraQuick Tutorial Colab exercise, which provides all the NumPy information you need for this course.
+pandas UltraQuick Tutorial Colab exercise, which provides all the pandas information you need for this course.
+
+
 ## Raspberry Pi
 
 ![Raspberry Pi 5](./_images/raspberry_pi_5.webp)
@@ -188,31 +201,23 @@ La detección de bordes en visión por computadora es un proceso fundamental e i
 [0013_Image_Aplications_Python.ipynb](https://colab.research.google.com/drive/1rY48Y5BGotO0dDlN9ZmnCIhMlOX5wP91?usp=sharing)
 
 # Aplicaciones en el mundo real
-- Reconocimiento de objetos
-- Clasificación de imágenes
-- Seguimiento de objetos
-- Analisis de video
-- Detección de rostros
-- Robotics
-- Biología y medicina
-- Conducción automática
 
+## Mejoramiento de imágenes 
+![Mejoramiento de imágenes](./_images/image_enhanment_2.jpeg)
 
-# Google Colab
-## Librerias
+## Reconocimiento de objetos
 
-- Numpy es una biblioteca de manipulación de matrices, utilizada para álgebra lineal, transformada de Fourier y capacidades de números aleatorios. [Tutorial](https://colab.research.google.com/github/google/eng-edu/blob/main/ml/cc/exercises/numpy_ultraquick_tutorial.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=numpy_tf2-colab&hl=en)
+## Clasificación de imágenes
 
-- Pandas es una biblioteca para la manipulación y el análisis de datos. [Tutorial](https://colab.research.google.com/github/google/eng-edu/blob/main/ml/cc/exercises/pandas_dataframe_ultraquick_tutorial.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=pandas_tf2-colab&hl=en)
+## Seguimiento de objetos
 
-- CV2 es una biblioteca para tareas de visión artificial. [Open CV Fundamentals ](https://colab.research.google.com/github/computationalcore/introduction-to-opencv/blob/master/notebooks/1-Fundamentals.ipynb)
+## Analisis de video
 
+## Detección de rostros
 
-NumPy UltraQuick Tutorial Colab exercise, which provides all the NumPy information you need for this course.
-pandas UltraQuick Tutorial Colab exercise, which provides all the pandas information you need for this course.
-# Raspberry Pi
+## Robotics
 
-# Roboflow
+## Biología y medicina
 
-
+## Conducción automática
 
