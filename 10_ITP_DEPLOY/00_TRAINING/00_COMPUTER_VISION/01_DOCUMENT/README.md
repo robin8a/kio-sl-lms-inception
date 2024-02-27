@@ -196,7 +196,7 @@ La detección de bordes en visión por computadora es un proceso fundamental e i
 > Una vez que la computadora encuentra estos puntos clave, puede usarlos para hacer cosas interesantes, como comparar imágenes y ver si son similares o encontrar objetos en una imagen. Es como si la computadora estuviera buscando tesoros en una imagen y luego usara esos tesoros para hacer cosas asombrosas, ¡como encontrar objetos o reconocer lugares! Es una forma muy útil en la que la computadora nos ayuda a entender y trabajar con imágenes.
 
 ## Extracción de características
-
+En visión por computadora, la extracción de características puede implicar la identificación de patrones visuales clave, como bordes, esquinas o texturas en imágenes que son útiles para tareas como el reconocimiento de objetos o la clasificación de imágenes.
 
 [0013_Image_Aplications_Python.ipynb](https://colab.research.google.com/drive/1rY48Y5BGotO0dDlN9ZmnCIhMlOX5wP91?usp=sharing)
 
@@ -205,19 +205,95 @@ La detección de bordes en visión por computadora es un proceso fundamental e i
 ## Mejoramiento de imágenes 
 ![Mejoramiento de imágenes](./_images/image_enhanment_2.jpeg)
 
-## Reconocimiento de objetos
+El mejoramiento de imágenes es un proceso utilizado en el campo de la visión por computadora para mejorar la calidad visual de una imagen, haciéndola más clara, nítida y fácil de interpretar. El objetivo del mejoramiento de imágenes es resaltar características importantes, reducir el ruido y mejorar la percepción visual de la imagen sin perder información relevante.
 
-## Clasificación de imágenes
+El proceso de mejoramiento de imágenes puede implicar una variedad de técnicas y métodos, que pueden ser aplicados de manera individual o combinada, dependiendo de las características específicas de la imagen y los objetivos del mejoramiento. Algunas de las técnicas comunes incluyen:
 
-## Seguimiento de objetos
+1. **Filtrado espacial**: El filtrado espacial implica el uso de filtros para modificar la apariencia de una imagen al procesarla píxel por píxel. Los filtros pueden utilizarse para suavizar la imagen, resaltar bordes, eliminar ruido o realzar ciertas características.
 
-## Analisis de video
+2. **Realce de contraste**: El realce de contraste se refiere a aumentar la diferencia entre los niveles de intensidad de los píxeles en una imagen, lo que puede mejorar la percepción de los detalles y las texturas.
+
+3. **Eliminación de ruido**: El ruido en una imagen puede ser el resultado de factores como la captura de la imagen, la transmisión de la señal o el procesamiento. La eliminación de ruido implica la aplicación de técnicas para reducir o eliminar estos artefactos no deseados, como el ruido aleatorio o el ruido de la señal.
+
+4. **Mejoramiento de la nitidez**: El mejoramiento de la nitidez se utiliza para resaltar los detalles finos y los bordes en una imagen, lo que puede hacer que la imagen parezca más clara y definida.
+
+5. **Corrección de color**: La corrección de color se utiliza para ajustar la temperatura de color, el balance de blancos y otros atributos de color de una imagen para hacerla más precisa o estéticamente agradable.
+
+6. **Mejoramiento basado en frecuencia**: Este enfoque implica transformar la imagen al dominio de la frecuencia utilizando técnicas como la transformada de Fourier, donde se pueden aplicar operaciones de filtrado para modificar características específicas de la imagen en el dominio de la frecuencia y luego regresar la imagen al dominio espacial.
+
+- [Mejoramiento de imágenes con Mathworks](https://www.mathworks.com/discovery/image-enhancement.html)
+- [AI to enhanceimage quality online](https://letsenhance.io/enhancer/)
+
+
+
+## Clasificación de imágenes y seguimiento de objetos
+
+La clasificación y seguimiento de objetos es una tarea fundamental en el campo de la visión por computadora y la inteligencia artificial, que implica identificar y seguir objetos específicos en secuencias de imágenes o videos en tiempo real. Aquí hay una explicación detallada de ambos conceptos:
+
+1. **Clasificación de objetos**:
+   - La clasificación de objetos implica identificar y asignar una etiqueta o categoría a cada objeto presente en una imagen o cuadro de video.
+   - Este proceso implica entrenar un modelo de aprendizaje automático (como una red neuronal convolucional) con un conjunto de datos etiquetados que contienen ejemplos de diferentes categorías de objetos.
+   - Una vez entrenado, el modelo puede detectar y clasificar objetos en imágenes o videos en función de las características aprendidas durante el entrenamiento.
+   - Por ejemplo, en una imagen de una calle, un sistema de clasificación de objetos podría identificar y etiquetar automáticamente los automóviles, peatones, señales de tráfico, etc.
+
+2. **Seguimiento de objetos**:
+   - El seguimiento de objetos implica seguir y rastrear la ubicación y el movimiento de un objeto específico a lo largo de una secuencia de imágenes o fotogramas de video.
+   - Este proceso se realiza comúnmente utilizando algoritmos de seguimiento que pueden identificar un objeto en el primer cuadro y luego seguirlo a medida que se mueve a través de cuadros sucesivos.
+   - El seguimiento de objetos puede ser útil en aplicaciones como la vigilancia, el seguimiento de vehículos, el análisis de comportamiento de peatones, etc.
+   - Es importante tener en cuenta que el seguimiento de objetos puede ser desafiante debido a cambios en la apariencia del objeto (como cambios de iluminación o oclusión), movimientos rápidos, la presencia de otros objetos similares, etc.
+
+- [Computer vision](https://colab.research.google.com/drive/1L4BbuyjeaDeE5hCwtbkOtF5w_hbXyKZZ?usp=sharing)
+
+
+### YOLO (You Only Look Once)
+
+YOLO (You Only Look Once) es un popular algoritmo de detección de objetos en tiempo real que utiliza una única red neuronal convolucional para predecir las coordenadas de los cuadros delimitadores y las probabilidades de las clases de objetos en una sola pasada a través de la imagen. Esto significa que YOLO puede detectar múltiples objetos en una imagen de una sola vez y en tiempo real.
+
+Aquí hay una descripción general de cómo funciona YOLO:
+
+1. **División de la imagen**:
+   - La imagen de entrada se divide en una cuadrícula de tamaño fijo. Cada celda de la cuadrícula es responsable de predecir un conjunto fijo de cuadros delimitadores y las probabilidades asociadas con las clases de objetos.
+
+2. **Predicción de cuadros delimitadores y clases**:
+   - Para cada celda de la cuadrícula, la red neuronal predice múltiples cuadros delimitadores (bounding boxes) junto con las probabilidades de que esos cuadros delimitadores contengan un objeto y las probabilidades de las clases de objetos presentes en esos cuadros delimitadores.
+   - Estas predicciones se realizan mediante capas convolucionales y capas completamente conectadas de la red neuronal.
+
+3. **Asociación de cuadros delimitadores**:
+   - Para evitar la duplicación de detecciones, se aplica un umbral de confianza a las probabilidades predichas de los cuadros delimitadores.
+   - Luego, se utilizan técnicas como Non-Maximum Suppression (NMS) para eliminar cuadros delimitadores redundantes y conservar solo los cuadros delimitadores con una alta probabilidad de contener objetos únicos.
+
+4. **Salida de detección**:
+   - Una vez que se han asociado los cuadros delimitadores, la salida final del algoritmo YOLO incluye las coordenadas de los cuadros delimitadores, las probabilidades de las clases de objetos asociadas con esos cuadros delimitadores y las etiquetas de clase correspondientes.
+
+5. **Entrenamiento**:
+   - Durante el entrenamiento, YOLO utiliza un conjunto de datos etiquetados para ajustar los pesos de la red neuronal convolucional, minimizando una función de pérdida que mide la discrepancia entre las predicciones del modelo y las etiquetas reales.
+
+Debido a su capacidad para realizar detecciones de objetos en tiempo real y su alto rendimiento, YOLO es ampliamente utilizado en una variedad de aplicaciones, como la vigilancia, la conducción autónoma, la detección de peatones, el seguimiento de objetos y mucho más.
+
+
+## Roboflow
+![Object tracking](./_images/object_tracking.png)
+- [How to Implement Object Tracking for Computer Vision](https://blog.roboflow.com/object-tracking-how-to/)
 
 ## Detección de rostros
-
-## Robotics
+AWS Rekognition
 
 ## Biología y medicina
 
 ## Conducción automática
+Raspberry Pi
 
+
+## Detección puntos claves
+
+
+- [YOLOv7-Pose-on-Custom-Dataset:](https://github.com/AarohiSingla/YOLOv7-POSE-on-Custom-Dataset)
+- [Anotación](https://www.cocoannotator.com/tasks/coco-keypoint-detection-task/)
+- [](https://keras.io/examples/vision/keypoint_detection/)
+
+
+## AWS Sagemaker
+
+- [Getting started with Amazon SageMaker](!https://aws.amazon.com/sagemaker/getting-started/)
+- [Sagemaker Examples](https://github.com/aws/amazon-sagemaker-examples/tree/main/introduction_to_amazon_algorithms)
+- [sagemaker-defect-detection](https://github.com/awslabs/sagemaker-defect-detection)
