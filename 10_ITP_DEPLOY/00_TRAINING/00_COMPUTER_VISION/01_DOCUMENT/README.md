@@ -84,10 +84,12 @@ Se refiere a una plataforma desarrollada por Google que se centra en la informá
 
 El hardware de Coral incluye placas de desarrollo como Coral Dev Board y USB Accelerator, que incorporan Edge TPU (Unidad de procesamiento tensor) de Google, un acelerador de hardware especializado para la inferencia de aprendizaje automático. Edge TPU está diseñado para acelerar la ejecución de modelos de aprendizaje automático en dispositivos de borde con baja latencia y eficiencia energética.
 
-## Referencias
+### Referencias
 
 - [Computer Vision on Raspberry Pi - Beginner to Advanced
 ](https://www.udemy.com/share/101BxU3@NVYDuOWs1uDUx_BhTwMk2GzjroA93xQiaMyEkW5mtlUCQhSG-qrg7RJ2dHKeWASo/)
+
+
 
 
 ## Roboflow
@@ -154,6 +156,44 @@ Para evitar el sobreajuste y crear un conjunto de datos más grande a partir de 
 5. Desenfocar, afilar
 
 [0011_Image_Processing_in_Python_.ipynb](https://colab.research.google.com/drive/1O3GSNdPmqVRu6uB9XatjqHFCVZb-bVAR)
+
+# Redes Neuronales
+## Qué es una neurona en nuestro cerebro
+Una neurona es como una pequeña mensajera en tu cerebro. Su trabajo es llevar y enviar mensajes, como cuando tú envías un mensaje a un amigo con tu teléfono. Pero en lugar de mensajes de texto, las neuronas usan pequeñas chispas eléctricas (impulsos eléctricos) para enviar información.
+
+Cada neurona tiene dos partes principales: el cuerpo celular y las ramitas largas llamadas ***dendritas***. El cuerpo celular es como el centro de operaciones de la neurona. Recibe información de otras neuronas a través de las dendritas, que son como antenas que captan señales.
+
+Cuando la neurona recibe suficiente información y decide enviar un mensaje, lo hace a través de otra parte llamada axón, que es como un cable largo. Esta chispa eléctrica viaja a lo largo del axón hasta llegar a otras neuronas, y así continúa el proceso de enviar mensajes por todo el cerebro.
+
+Entonces, una neurona es como una pequeña trabajadora que ayuda a tu cerebro a pensar, recordar cosas e incluso a sentir emociones. Sin ellas, ¡nuestro cerebro no podría hacer su increíble trabajo!
+
+
+
+## Funciones de activación
+Las funciones de activación juegan roles cruciales en los modelos de aprendizaje profundo al introducir no linealidad, lo que permite que la red neuronal aprenda patrones y relaciones complejas en los datos. La elección de la función de activación depende de las características específicas del problema y de la arquitectura de la red neuronal que se esté utilizando.
+
+
+### Función Sigmoidal
+> La función sigmoide es una función de activación clásica que comprime los valores de entrada en un rango entre 0 y 1. Es suave y diferenciable, lo que la hace útil en tareas de clasificación binaria. Sin embargo, sufre del problema del gradiente desvaneciente, donde los gradientes se vuelven muy pequeños para valores extremos de entrada, lo que lleva a un aprendizaje lento.
+
+### ReLU (Unidad Lineal Rectificada)
+> ReLU es una función de activación simple y ampliamente utilizada que devuelve el valor de entrada si es positivo; de lo contrario, devuelve cero. Introduce no linealidad en el modelo y ayuda a mitigar el problema del gradiente desvaneciente. ReLU es computacionalmente eficiente, pero puede sufrir del problema de "ReLU muerta", donde las neuronas pueden volverse inactivas y dejar de aprender debido a que consistentemente producen cero para entradas negativas.
+
+### Leaky ReLU 
+> Leaky ReLU es una variación de ReLU que permite una pequeña pendiente positiva para entradas negativas en lugar de establecerlas en cero. Esto aborda el problema de la ReLU muerta al asegurar que todas las neuronas contribuyan al proceso de aprendizaje, incluso aquellas con entradas negativas. Es simple pero efectivo para prevenir la saturación de gradientes.
+
+### ELU (Unidad Exponencial Lineal)
+> ELU es otra variación de ReLU que suaviza la parte negativa de la función con una curva exponencial. Ayuda a mitigar el problema de la ReLU muerta y se ha demostrado que acelera el aprendizaje en comparación con ReLU tradicional. Sin embargo, ELU es computacionalmente más costoso debido a la operación exponencial.
+
+### Función Tanh
+> La función tangente hiperbólica (tanh) es similar a la función sigmoide pero varía entre -1 y 1. Al igual que la sigmoide, es útil en tareas de clasificación binaria e introduce no linealidad en el modelo. Sin embargo, sufre del mismo problema del gradiente desvaneciente que la función sigmoide.
+
+## Función Softmax
+> Softmax se utiliza a menudo como función de activación en la capa de salida de una red neuronal para problemas de clasificación multiclase. Normaliza la salida en una distribución de probabilidad sobre múltiples clases, donde cada salida representa la probabilidad de la clase correspondiente. Es ampliamente utilizado en tareas de clasificación debido a su capacidad para proporcionar salidas interpretables.
+
+## Función Swish
+> Swish es una función de activación relativamente nueva que combina elementos de las funciones ReLU y sigmoide. Tiende a funcionar mejor que ReLU en modelos más profundos y tiene un gradiente más suave, lo que potencialmente conduce a una convergencia más rápida durante el entrenamiento. Sin embargo, es computacionalmente más costoso que ReLU.
+
 
 # Operaciones avanzadas
 1. Ecualización de histograma
