@@ -174,22 +174,51 @@ Las funciones de activación juegan roles cruciales en los modelos de aprendizaj
 
 
 ### Función Sigmoidal
+![](./_images/activation_function_sigmoid_or_logistic.png)
 > La función sigmoide es una función de activación clásica que comprime los valores de entrada en un rango entre 0 y 1. Es suave y diferenciable, lo que la hace útil en tareas de clasificación binaria. Sin embargo, sufre del problema del gradiente desvaneciente, donde los gradientes se vuelven muy pequeños para valores extremos de entrada, lo que lleva a un aprendizaje lento.
+- For models to predict the probability as an output. 
+- Probability exists only between the range of 0 and 1.
+- The function is differentiable i.e., we can find the slope of the sigmoid curve at any two points. 
+- The softmax function is a more generalized logistic activation function which is used for multiclass classification. 
 
-### ReLU (Unidad Lineal Rectificada)
+> Ej. para la clasificación de imágenes
+
+### Función Tanh   (Tanh or hyperbolic tangent)
+![](./_images/activation_function_tanh_hyperbolic.png)
+![](./_images/activation_function_sigmoid_vs_tanh_hyperbolic.png)
+> La función tangente hiperbólica (tanh) es similar a la función sigmoide pero varía entre -1 y 1. Al igual que la sigmoide, es útil en tareas de clasificación binaria e introduce no linealidad en el modelo. Sin embargo, sufre del mismo problema del gradiente desvaneciente que la función sigmoide.
+- The range of the tanh function is from (-1 to 1). 
+- Negative inputs will be mapped strongly negative. 
+- Zero inputs will be mapped near zero in the tanh graph. 
+- The tanh function is differentiable. 
+- Mainly used classification between two classes. 
+
+### ReLU (Unidad Lineal Rectificada)(Rectified Linear Unit)
+![](./_images/activation_function_ReLu_vs_sigmoid.png)
 > ReLU es una función de activación simple y ampliamente utilizada que devuelve el valor de entrada si es positivo; de lo contrario, devuelve cero. Introduce no linealidad en el modelo y ayuda a mitigar el problema del gradiente desvaneciente. ReLU es computacionalmente eficiente, pero puede sufrir del problema de "ReLU muerta", donde las neuronas pueden volverse inactivas y dejar de aprender debido a que consistentemente producen cero para entradas negativas.
+- The range of the ReLu function is from (0 to infinite)
+- The ReLu function f(z) is zero when z is less than zero
+- The ReLu function f(z) is equal to z when z is above or equal to zero
+- Any negative input given to the ReLu activation function turns the value into zer immeditely
 
 ### Leaky ReLU 
+![](./_images/activation_function_Leaky_ReLu_vs.jpeg)
 > Leaky ReLU es una variación de ReLU que permite una pequeña pendiente positiva para entradas negativas en lugar de establecerlas en cero. Esto aborda el problema de la ReLU muerta al asegurar que todas las neuronas contribuyan al proceso de aprendizaje, incluso aquellas con entradas negativas. Es simple pero efectivo para prevenir la saturación de gradientes.
+- The leaky ReLU helpsto increase the range of the ReLU function
+- Usally, the value of a is 0.01
+- When a is not 0.01 then is called Randomized ReLu
+- The range of Leacky ReLU is (-infinity to infinity)
+
+
+## Función Softmax
+> Softmax se utiliza a menudo como función de activación en la capa de salida de una red neuronal para problemas de clasificación multiclase. Normaliza la salida en una distribución de probabilidad sobre múltiples clases, donde cada salida representa la probabilidad de la clase correspondiente. Es ampliamente utilizado en tareas de clasificación debido a su capacidad para proporcionar salidas interpretables.
+
+
 
 ### ELU (Unidad Exponencial Lineal)
 > ELU es otra variación de ReLU que suaviza la parte negativa de la función con una curva exponencial. Ayuda a mitigar el problema de la ReLU muerta y se ha demostrado que acelera el aprendizaje en comparación con ReLU tradicional. Sin embargo, ELU es computacionalmente más costoso debido a la operación exponencial.
 
-### Función Tanh
-> La función tangente hiperbólica (tanh) es similar a la función sigmoide pero varía entre -1 y 1. Al igual que la sigmoide, es útil en tareas de clasificación binaria e introduce no linealidad en el modelo. Sin embargo, sufre del mismo problema del gradiente desvaneciente que la función sigmoide.
 
-## Función Softmax
-> Softmax se utiliza a menudo como función de activación en la capa de salida de una red neuronal para problemas de clasificación multiclase. Normaliza la salida en una distribución de probabilidad sobre múltiples clases, donde cada salida representa la probabilidad de la clase correspondiente. Es ampliamente utilizado en tareas de clasificación debido a su capacidad para proporcionar salidas interpretables.
 
 ## Función Swish
 > Swish es una función de activación relativamente nueva que combina elementos de las funciones ReLU y sigmoide. Tiende a funcionar mejor que ReLU en modelos más profundos y tiene un gradiente más suave, lo que potencialmente conduce a una convergencia más rápida durante el entrenamiento. Sin embargo, es computacionalmente más costoso que ReLU.
@@ -320,6 +349,9 @@ AWS Rekognition
 
 ## Biología y medicina
 
+
+### Dentistry
+- [An Explainable Deep Learning Model to Prediction Dental Caries Using Panoramic Radiograph Images](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9858273/)
 ## Conducción automática
 Raspberry Pi
 
@@ -337,3 +369,24 @@ Raspberry Pi
 - [Getting started with Amazon SageMaker](!https://aws.amazon.com/sagemaker/getting-started/)
 - [Sagemaker Examples](https://github.com/aws/amazon-sagemaker-examples/tree/main/introduction_to_amazon_algorithms)
 - [sagemaker-defect-detection](https://github.com/awslabs/sagemaker-defect-detection)
+
+
+# Clover Hills
+
+- Virtualización
+- 
+- Broadcast por cable coaxial
+
+## Google chrome
+
+
+## Enviar videos por cable coxial
+
+## Dongle
+
+
+* todolist
+
+- contacto Camilo Gremoo
+
+## Cleancheck 
