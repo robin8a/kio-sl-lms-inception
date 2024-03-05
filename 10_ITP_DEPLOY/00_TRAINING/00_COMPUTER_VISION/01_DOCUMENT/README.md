@@ -210,8 +210,11 @@ Las funciones de activación juegan roles cruciales en los modelos de aprendizaj
 - The range of Leacky ReLU is (-infinity to infinity)
 
 
-## Función Softmax
+##  Softmax
 > Softmax se utiliza a menudo como función de activación en la capa de salida de una red neuronal para problemas de clasificación multiclase. Normaliza la salida en una distribución de probabilidad sobre múltiples clases, donde cada salida representa la probabilidad de la clase correspondiente. Es ampliamente utilizado en tareas de clasificación debido a su capacidad para proporcionar salidas interpretables.
+Imagine you have a bunch of friends, and you all want to decide what game to play together. Each friend suggests a game they like, and then you all vote. Now, the game with the most votes wins, right? That's kind of how the softmax function works! It takes a bunch of numbers (like how much each friend likes a game) and turns them into probabilities (like how likely each game is to win). So, just like when you all vote for a game to play, softmax helps us pick the most likely choice based on the numbers we have
+
+- Is use 80%  deeplearning applications
 
 
 
@@ -223,6 +226,9 @@ Las funciones de activación juegan roles cruciales en los modelos de aprendizaj
 ## Función Swish
 > Swish es una función de activación relativamente nueva que combina elementos de las funciones ReLU y sigmoide. Tiende a funcionar mejor que ReLU en modelos más profundos y tiene un gradiente más suave, lo que potencialmente conduce a una convergencia más rápida durante el entrenamiento. Sin embargo, es computacionalmente más costoso que ReLU.
 
+## All activation functions together
+
+![](./_images/activation_function_several.jpeg)
 
 # Operaciones avanzadas
 1. Ecualización de histograma
