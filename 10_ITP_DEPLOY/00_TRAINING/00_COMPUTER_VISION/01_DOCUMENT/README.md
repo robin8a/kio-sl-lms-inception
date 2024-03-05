@@ -170,7 +170,22 @@ Entonces, una neurona es como una pequeña trabajadora que ayuda a tu cerebro a 
 
 
 ## Funciones de activación
-Las funciones de activación juegan roles cruciales en los modelos de aprendizaje profundo al introducir no linealidad, lo que permite que la red neuronal aprenda patrones y relaciones complejas en los datos. La elección de la función de activación depende de las características específicas del problema y de la arquitectura de la red neuronal que se esté utilizando.
+![](./_images/activation_building_blocks.jpeg)
+> Las funciones de activación juegan roles cruciales en los modelos de aprendizaje profundo al introducir no linealidad, lo que permite que la red neuronal aprenda patrones y relaciones complejas en los datos. La elección de la función de activación depende de las características específicas del problema y de la arquitectura de la red neuronal que se esté utilizando.
+>> Imagine you're playing with blocks, and you're trying to build a tower. Now, let's say each block represents a number. When you stack the blocks, you need something that decides how tall the tower will be. That's what an activation function does! It's like a special rule that helps decide how tall the tower will be based on the numbers (blocks) you have. Without this rule, the tower might not look as interesting or be as tall. So, the activation function makes sure your tower (or neural network) can build cool and tall structures (learn complex patterns).
+
+### How works?
+An activation function is a crucial component of artificial neural networks, which are computing systems inspired by the human brain. The primary role of an activation function is to introduce non-linearity into the output of a neuron or a layer of neurons. This non-linearity is essential for neural networks to learn complex patterns and relationships in data.
+
+Here's why activation functions are important:
+
+1. **Introducing non-linearity**: Without activation functions, neural networks would simply be a series of linear transformations (a linear transformation just means you're changing a number in a simple way, like multiplying it and adding something; For example, if you give it the number 3, and the rule says to multiply by 2 and add 1, it would do: 3 * 2 + 1 = 7). This means they would be limited to learning linear relationships between input and output data, which is often too simplistic for real-world tasks like image recognition or natural language processing. Activation functions enable neural networks to model and learn non-linear relationships, making them much more powerful.
+
+2. **Enabling complex decision boundaries**: In classification tasks, activation functions help neural networks define decision boundaries that can separate different classes of data. By introducing non-linearities, activation functions allow neural networks to create more intricate decision boundaries, leading to better classification accuracy.
+
+3. **Gradient propagation during training**: Activation functions play a crucial role in the training process of neural networks through a technique called backpropagation. During backpropagation, the gradients of the loss function with respect to the network parameters are calculated and used to update the parameters through optimization algorithms like gradient descent. Activation functions need to have derivatives that allow gradients to flow backward through the network, enabling efficient training.
+
+Overall, activation functions are essential for unlocking the full potential of neural networks by enabling them to model complex relationships in data and learn from examples effectively.
 
 
 ### Función Sigmoidal
@@ -211,10 +226,31 @@ Las funciones de activación juegan roles cruciales en los modelos de aprendizaj
 
 
 ##  Softmax
+![](./_images/activation_function_softmax.jpeg)
+![](./_images/activation_function_softmax_formula.png)
 > Softmax se utiliza a menudo como función de activación en la capa de salida de una red neuronal para problemas de clasificación multiclase. Normaliza la salida en una distribución de probabilidad sobre múltiples clases, donde cada salida representa la probabilidad de la clase correspondiente. Es ampliamente utilizado en tareas de clasificación debido a su capacidad para proporcionar salidas interpretables.
-Imagine you have a bunch of friends, and you all want to decide what game to play together. Each friend suggests a game they like, and then you all vote. Now, the game with the most votes wins, right? That's kind of how the softmax function works! It takes a bunch of numbers (like how much each friend likes a game) and turns them into probabilities (like how likely each game is to win). So, just like when you all vote for a game to play, softmax helps us pick the most likely choice based on the numbers we have
+>> Imagine you have a bunch of friends, and you all want to decide what game to play together. Each friend suggests a game they like, and then you all vote. Now, the game with the most votes wins, right? That's kind of how the softmax function works! It takes a bunch of numbers (like how much each friend likes a game) and turns them into probabilities (like how likely each game is to win). So, just like when you all vote for a game to play, softmax helps us pick the most likely choice based on the numbers we have
 
 - Is use 80%  deeplearning applications
+
+
+
+### Step by step
+Sure! Let's break it down step by step:
+
+1. **Understanding numbers**: Imagine you have some numbers that represent how much you and your friends like different games. These numbers could be anything, like 3, 5, 2, etc. Each number shows how much someone likes a game.
+
+2. **Softmax function**: Now, we want to turn these numbers into probabilities. We use something called the softmax function for that. Here's how it works:
+   
+   - **Step 1**: We take each number and raise it to the power of a special number called "e" (the mathematical constant approximately equal to 2.71828). This makes sure all numbers are positive.
+   
+   - **Step 2**: Then, we add up all these powered numbers.
+   
+   - **Step 3**: Next, we divide each powered number by the sum we found in step 2. This gives us the probability of each game being chosen.
+   
+   - **Step 4**: Now we have probabilities for each game. The game with the highest probability is the most likely to be chosen, just like when you and your friends vote for a game to play.
+
+So, basically, the softmax function helps us turn numbers into probabilities, making it easier to choose the most likely option.
 
 
 
