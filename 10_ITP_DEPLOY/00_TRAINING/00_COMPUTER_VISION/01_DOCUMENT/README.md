@@ -84,6 +84,13 @@ Se refiere a una plataforma desarrollada por Google que se centra en la informá
 
 El hardware de Coral incluye placas de desarrollo como Coral Dev Board y USB Accelerator, que incorporan Edge TPU (Unidad de procesamiento tensor) de Google, un acelerador de hardware especializado para la inferencia de aprendizaje automático. Edge TPU está diseñado para acelerar la ejecución de modelos de aprendizaje automático en dispositivos de borde con baja latencia y eficiencia energética.
 
+## TensorFlow
+TensorFlow makes it easy to create ML models that can run in any environment. Learn how to use the intuitive APIs through interactive code samples.
+
+[Tensor Flow](https://www.tensorflow.org/)
+[Quick Start](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb)
+[Tutorial](https://www.tensorflow.org/tutorials)
+
 ### Referencias
 
 - [Computer Vision on Raspberry Pi - Beginner to Advanced
@@ -174,7 +181,7 @@ Entonces, una neurona es como una pequeña trabajadora que ayuda a tu cerebro a 
 > Las funciones de activación juegan roles cruciales en los modelos de aprendizaje profundo al introducir no linealidad, lo que permite que la red neuronal aprenda patrones y relaciones complejas en los datos. La elección de la función de activación depende de las características específicas del problema y de la arquitectura de la red neuronal que se esté utilizando.
 >> Imagine you're playing with blocks, and you're trying to build a tower. Now, let's say each block represents a number. When you stack the blocks, you need something that decides how tall the tower will be. That's what an activation function does! It's like a special rule that helps decide how tall the tower will be based on the numbers (blocks) you have. Without this rule, the tower might not look as interesting or be as tall. So, the activation function makes sure your tower (or neural network) can build cool and tall structures (learn complex patterns).
 
-### How works?
+### How it works?
 An activation function is a crucial component of artificial neural networks, which are computing systems inspired by the human brain. The primary role of an activation function is to introduce non-linearity into the output of a neuron or a layer of neurons. This non-linearity is essential for neural networks to learn complex patterns and relationships in data.
 
 Here's why activation functions are important:
@@ -273,6 +280,15 @@ So, basically, the softmax function helps us turn numbers into probabilities, ma
 4. Encontrar bordes mediante filtrado de paso alto en FFT
 
 [0012_Image_Processing_in_Python.ipynb](https://colab.research.google.com/drive/1T1XuwrtMdvDNJneRXOLoVmrBcTAiJs68?usp=sharing)
+
+
+## In action
+- Input value
+- Weight
+- Activation function
+- Error
+- Epoch
+
 
 # Algoritmos y aplicaciones (CV)
 A continuación alguna de las aplicaciones:
