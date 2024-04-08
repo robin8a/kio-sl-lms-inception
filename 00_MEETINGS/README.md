@@ -9,8 +9,8 @@
 > Prioridad de lanzamiento
 
 ## 1. Red social
-- Self recording (prioridad 1) (seria bueno, )
-- Mejorar la calidad del thumnail
+- Self recording (prioridad 1) (seria bueno, agregar efectos)
+- Mejorar la calidad del thumbnail
 - Dashboard no, sino la selección de categoria 
 -
 
