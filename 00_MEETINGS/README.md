@@ -12,7 +12,6 @@
 - Self recording (prioridad 1) (seria bueno, agregar efectos)
 - Mejorar la calidad del thumbnail
 - Dashboard no, sino la selección de categoria 
--
 
 ## 2. Deshabilitar (nuevos productos)
 
@@ -38,3 +37,24 @@
 # Entregables
 - Landing de cada proyecto, Eduinnova (Arauca, Gu)
 - Va cyrano, función premium.
+
+
+# 15 Abril Look & Feel
+- Fuentes acorde Figma
+- Alerta: escoge bien tu nombre de usuario, ya que no podrás cambiarlo
+- Bolita de perfil, diriguir a ése perfil
+- Comentario, ver video. Transparencia, para ver
+- Ciclo de vida de las notificaciones, cesta para eliminar. Estado borrado.
+- Archivar todas, borrar
+- Seleccionar notificaciones (una o varias) para archivar o borrar
+- Responsive de notifcaciones botones, debajo del titulo
+- Cargar mas de las tendendicas, por scroll horizontal. No usar cargar mas
+- Cambiar barra interior, alineado con figma
+- Minuto max por video
+- Firmar el video con el usuario, solo lo pueda visualizar el autor
+- Frame previo, o modal que informe que debe tener un registro. Guardamos el Id y va el perfil, cuando hago un registro
+- Signo de interrogación apertura en "olvido contraseña?", y la tilde
+- correo de administración para Camilo
+- Acceso a la tienda
+- 2 tres 3 nuevo Ux/UI
+- @camilo contacto Shacha

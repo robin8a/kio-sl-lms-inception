@@ -30,7 +30,7 @@ Certificados,
 # 20 minutos
 
 
-# USD 22 por cada nino, 4 sesiones 8 meses, 176 dolares 
+# Libertarios USD 22 por cada nino, 4 sesiones 8 meses, 176 dolares 
 ## 10 M
 ## Tiene contenido 
 ## Certificados por U. Michicga
