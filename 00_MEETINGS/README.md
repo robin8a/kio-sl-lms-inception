@@ -42,7 +42,7 @@
 # 15 Abril Look & Feel
 - Fuentes acorde Figma
 - Alerta: escoge bien tu nombre de usuario, ya que no podrás cambiarlo
-- Bolita de perfil, diriguir a ése perfil
+- Bolita de perfil, dirigir a ése perfil
 - Comentario, ver video. Transparencia, para ver
 - Ciclo de vida de las notificaciones, cesta para eliminar. Estado borrado.
 - Archivar todas, borrar
@@ -58,3 +58,17 @@
 - Acceso a la tienda
 - 2 tres 3 nuevo Ux/UI
 - @camilo contacto Shacha
+
+
+
+# 19 Abril, 2024
+- Esta desvinculado la fuente Roboto. Esta tomando "Times new roman"
+- Guardar lo que escogio antes, con el botón de "Atrás". Que no se pieda las categorías escogidas
+- Completar información: cambiar "Nombre de contacto" por "Tu nombre"
+- En: Si aún no tiene cuenta?Registrate poner un espacio entre cuenta? y Registrate
+- Bolita de notificaciones correrla un poco a la izquierda
+- Función que este cada 15 días, ciclo de vida notificaciones.  
+- Versión escritorio encajonar a 6, ajustar al tamaño del perfil
+- Solo puede ver los videos "no aprobados" por el owner o administrado, marca de agua letreo en rojo "NO APROBADO"
+- Crear biblioteca de mp3 de fondo libres, sin copyright. Armar la biblioteca
+- Ajustar ancho de las barras, en la interfaz de perfil
