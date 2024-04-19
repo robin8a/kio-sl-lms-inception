@@ -72,3 +72,4 @@
 - Solo puede ver los videos "no aprobados" por el owner o administrado, marca de agua letreo en rojo "NO APROBADO"
 - Crear biblioteca de mp3 de fondo libres, sin copyright. Armar la biblioteca
 - Ajustar ancho de las barras, en la interfaz de perfil
+- Lanzamiento, se corré
