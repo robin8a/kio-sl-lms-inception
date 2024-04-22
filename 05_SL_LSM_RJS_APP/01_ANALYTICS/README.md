@@ -14,7 +14,6 @@
 
 ## Agregation
 - https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-select-sql-reference-aggregate.html
-- https://www.youtube.com/watch?v=xu3A_7DcRgQ
 
 ## Kinesis datastream => Firehose => s3 (cvs)
 - [How can I convert a JSON to CSV using data transformation (lambda and python) in a Kinesis Firehose?](https://www.youtube.com/watch?v=w0EaPnGNPZA)
@@ -134,7 +133,7 @@ SUAN Global
 
 ## Modelo de programación Map Reduce
 - [Map Reduce Tutorial](https://youtu.be/yaeLIiHVPw4?si=mPZ4tspmHZa-6i2d)
-[Reducer](./_images/map_reducer.png)
+- [Reducer](./_images/map_reducer.png)
 
 ## Apache Spark
 [Master/Nodos](./_images/spark.png)
