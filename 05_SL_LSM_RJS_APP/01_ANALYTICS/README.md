@@ -158,3 +158,14 @@ SUAN Global
 
 # Figma to React 
 - [Visual Copilot Converts Figma Mocks to React Fast and Accurately](https://www.youtube.com/watch?v=DttZuqAiuR0)
+
+
+
+# Informes Sergio de Abril
+12 documentos, escoger 4 de esos para reportar y mejorarlos
+- Formato de hoja de vida de los arboles
+- Fitosanitario
+- Format
+
+
+# Data lake
