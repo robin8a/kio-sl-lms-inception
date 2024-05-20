@@ -73,3 +73,8 @@
 - Crear biblioteca de mp3 de fondo libres, sin copyright. Armar la biblioteca
 - Ajustar ancho de las barras, en la interfaz de perfil
 - Lanzamiento, se corré
+
+# 20 mayo, 2024
+@Eduado Mutis,  impuesto por recursos. Linkedin
+
+
