@@ -1,45 +1,55 @@
-# 05 Abril, 2024
+# Reuniones
 
-## Lanzamiento
+## 05 Abril, 2024
+
+### Lanzamiento
+
 - Fecha de lanzamiento: 3ra semana de abril 2024, Miercoles o Jueves, 15:00 o 16:00
 - Pieza gráfica
 - Difusión WA, @profesores
-- @camilo Pauta con la 
+- @camilo Pauta con la
+- Prioridad de lanzamiento
 
-> Prioridad de lanzamiento
+### 1. Red social
 
-## 1. Red social
 - Self recording (prioridad 1) (seria bueno, agregar efectos)
 - Mejorar la calidad del thumbnail
-- Dashboard no, sino la selección de categoria 
+- Dashboard no, sino la selección de categoria
 
-## 2. Deshabilitar (nuevos productos)
+### 2. Deshabilitar (nuevos productos)
 
-## 3. Habilitar
+### 3. Habilitar
+
 - Ebooks
 - Podcast
 
-## Soporte técnico y mantenimiento
-- Quien 
+### Soporte técnico y mantenimiento
+
+- Quien?
 - Disponibilidad
 
-## 4. Hoja de ruta
+### 4. Hoja de ruta
+
  Con masa crítica
 
-### 1. Cursos / crear cursos
-### 2. Dashboard (simuladores, ebooks y post,  talleres ), centro de recursos. Autorización de APKs android y iOS, 1 o dos meses después
-### 3. Tienda virtual @adriana
-### 4. Desafios/Tokens
+#### 1. Cursos / crear cursos
+
+#### 2. Dashboard (simuladores, ebooks y post,  talleres ), centro de recursos. Autorización de APKs android y iOS, 1 o dos meses después
+
+#### 3. Tienda virtual @adriana
+
+#### 4. Desafios/Tokens
+
 - Desafios
 - Economía de los tokens
 
+### Entregables
 
-# Entregables
 - Landing de cada proyecto, Eduinnova (Arauca, Gu)
 - Va cyrano, función premium.
 
+## 15 Abril Look & Feel
 
-# 15 Abril Look & Feel
 - Fuentes acorde Figma
 - Alerta: escoge bien tu nombre de usuario, ya que no podrás cambiarlo
 - Bolita de perfil, dirigir a ése perfil
@@ -59,9 +69,8 @@
 - 2 tres 3 nuevo Ux/UI
 - @camilo contacto Shacha
 
+## 19 Abril, 2024
 
-
-# 19 Abril, 2024
 - Esta desvinculado la fuente Roboto. Esta tomando "Times new roman"
 - Guardar lo que escogio antes, con el botón de "Atrás". Que no se pieda las categorías escogidas
 - Completar información: cambiar "Nombre de contacto" por "Tu nombre"
@@ -74,7 +83,21 @@
 - Ajustar ancho de las barras, en la interfaz de perfil
 - Lanzamiento, se corré
 
-# 20 mayo, 2024
-@Eduado Mutis,  impuesto por recursos. Linkedin
+## 20 mayo, 2024
 
+- @Eduado Mutis,  impuesto por recursos. Linkedin
 
+## 02 Septiembre, 2024
+
+- Adriana y sacha para estimular el uso del app
+- Dos lanzamientos
+- N4na y makersi
+- eduinnova, termina
+- n4na continua
+- Los videos se suben
+- Un espacio diario, preguntas. Fallas y de todo
+- 12 al 19 lanzamiento
+- Destino, mapa del vehículo. Retomar la presentación que ya había, porque usar n4na y no tiktok
+- Un video un token
+- Subir videos, union temporal markersi sería un perfil, que suban los videos
+- Sacha tiene 140
