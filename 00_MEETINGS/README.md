@@ -89,7 +89,7 @@
 
 ## 02 Septiembre, 2024
 
-- Adriana y sacha para estimular el uso del app
+- Adriana y Sacha para estimular el uso del app
 - Dos lanzamientos
 - N4na y makersi
 - eduinnova, termina
@@ -101,3 +101,4 @@
 - Un video un token
 - Subir videos, union temporal markersi sería un perfil, que suban los videos
 - Sacha tiene 140
+- Dos lanzamiento, son dos apps. Se sube lo de los Colegios
