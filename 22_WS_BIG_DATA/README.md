@@ -9,6 +9,7 @@
 ## Tools
 
 - Virtual Box
+- Comunidad de DataSets <https://huggingface.co/>
 - <https://archive.cloudera.com/hwx-sandbox/hdp/%20hdp-2.6.5/HDP_2.6.5_virtualbox_180626.ova/>
 - <https://grouplens.org/>
 - <https://jithinsisaac.github.io/posts/hdp_sandbox/>
@@ -27,6 +28,9 @@ unv_pac_user_4
 unv_pac_user_5
 unv_pac_user_6
 unv_pac_user_7
+unv_pac_user_8
+unv_pac_user_9
+unv_pac_user_10
 
 
 
@@ -35,3 +39,19 @@ unv_pac_user_7
 - <https://github.com/rshah204/MapReduce-Implementation-in-PySpark/blob/master/MapReduce_PySpark.ipynb>
 - Amazon_Responded_Oct05.csv <https://www.kaggle.com/datasets/sirvana/amazon-responded-tweets/data>
 - <https://stackoverflow.com/questions/55240940/error-while-installing-spark-on-google-colab>
+
+
+
+1 000 K = 3
+1 000 000 M = 6
+1 000 000 000 G = 9
+1 000 000 000 000 T = 12
+1 000 000 000 000 P = 15
+
+4 000 000 000 000 000 E = 18
+
+### Mastering Big Data with PySpark on Google Colab
+
+- <https://medium.com/@siladityaghosh/mastering-big-data-with-pyspark-on-google-colab-d3c924264ceb>
+
+- <https://colab.google/articles/bq>
