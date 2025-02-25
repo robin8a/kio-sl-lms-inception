@@ -108,3 +108,44 @@ I would like to create a video that shows the logistics process for citizen that
 - Prompt video LMS
 
 Ayudame a crear un video con videos propios para explicar tres funcionalidades principales del siguiente LMS: 1. Red social de videos cortos 2. MOOCs que cuentan una historia 3. Desafios para motivar el aprendizaje.
+
+## 20 Febrero, 2025
+
+- [] NDA
+
+### Integrantes
+
+- Ana Milena Negrete: formulas los proyectos, modelo no sea estático
+- Un punto 800 millones
+- Prensa reducir
+- Aprovechamiento de 20%, 40 ton de residuos solidos
+- 16 personas, 8 meses al año
+- Prevesión
+- Micro-aseguramiento
+- Padrino, alianzas
+- Ahorro
+- Ajustes locativos
+- Para la casa, estudio, negocio
+- Viaje, alianza
+- Pegarle a nutrición
+
+## Integracion con BancaAlimento
+
+- [] Paquete tecnológico, como esta creado el sistema de BancaAlimentos? Y cuanto cuesta?
+- 3000 personas, ECA de BancaAlimentos, No estrictamente recicladores. Un espacio recepción y bodega, espacio recepción (Alimentos/Aseguramiento, Ahorro)
+- [] Caracterización, preguntas @Maria Paula
+- [] NDA
+
+## 25 Feb, 2025
+
+### Piloto en un conjunto residencial estrato 3, 4 (ECA Portable)
+
+- Educación a través de un experiencia inmersiva (compras => limpieza => clasificación => entrega en la ECA)
+- Conjunto de desafios enfoncado en el conjunto. Cuales son? (premios son con lo que se recicle)
+- Medir
+
+### Cómo?
+
+- EcoBot (clasicación)
+- Compostaje de residuos orgánicos
+- Compostaje mascotas
