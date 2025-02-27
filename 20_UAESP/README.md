@@ -149,3 +149,12 @@ Ayudame a crear un video con videos propios para explicar tres funcionalidades p
 - EcoBot (clasicación)
 - Compostaje de residuos orgánicos
 - Compostaje mascotas
+
+## 
+
+- Mano de obra $250k, 12 $200k
+- Revision frenos: 80k completo. 100k con cambios
+- Fuga de aceite, $60k
+- Ferney
+- $400k
+- Filtro y aceite: $30K, $125k
