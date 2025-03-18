@@ -150,11 +150,198 @@ Ayudame a crear un video con videos propios para explicar tres funcionalidades p
 - Compostaje de residuos orgánicos
 - Compostaje mascotas
 
-## 
+## 14 de marzo, 2025
 
-- Mano de obra $250k, 12 $200k
-- Revision frenos: 80k completo. 100k con cambios
-- Fuga de aceite, $60k
-- Ferney
-- $400k
-- Filtro y aceite: $30K, $125k
+- Gloria Ines Niño
+- German Rodriguez Niño
+- Yeimy Corredor
+- Robin Ochoa
+- <https://www.linkedin.com/in/gloria-isabel-ni%C3%B1o-lopez-0b0a5229/?originalSubdomain=co>
+- <https://www.biotecgen.com.co/>
+
+- Biotecnología
+- Los buscan para solucionar problemas, agroindustrial, alimentos
+- 3 patentes, compostaje
+- Materia fecal, nitrogeno fósforo, potasio 4 a 5 hora. Refinerîa. Lecencias y las patentes
+- [] Relleno sanitario autosuficiente, podríamos trabajar automatización AI
+- Gaseosa orgánica, no tine azucar
+- En el PIT, musculo econonómico
+- Tetrabrick, mas costoso el reciclaje, sostenibilidad
+- Clasificación de residuos
+- Rural gallinaza
+- Refinería, poble
+- Corto tiempo, planta piloto. Secreto indus
+- Vender patentes, licencia tecnología
+- Biodegradación, polimeros animales
+- Licenciar
+- FAse laboratorio, planta piloto
+- En que fase entrar
+
+### Ruralidad
+
+- Villa Pinzón
+- Sensibilización y trabajo educativo
+- Como se articulan los diferenctes procesos (matriz donde se encuentran)
+- CAR doc, disposición del grupo
+
+## Transformación
+
+### Abonos
+
+1. Cadena de valor
+2. Cambio de chip
+3. Marc Nef, valor a al sigegía. Por un foco, afectan a los otros "efecto boomerang"
+
+- Ligado a las necesidates humanas que son 7, integral
+- Dónde esta el foco afecta los demas
+- Sinergía, cuidado con las personas que se involucren
+
+### Reto
+
+- Caracterización de las materias primas, para ver donde intervienen
+- Protocolos de investigación
+- Colchón financiero: propuestas desde las convocatorias internacionales que van a salir para este 2 trimestre
+
+### Mapean 30 años
+
+- Productos, Orinoquía, Vichada, como materia prima.
+- Musculo económico, ya se tienen los clientes
+- Mexico, cerdos, gallinas, pollo (nitrogeno, fosforo, potasio) A días u horas. Canal económico.
+- Hambre cero en México. Hongo, tiene muchos subproductos. Materias primas, o mejores
+- Productos de TVs, Japón
+- 3 o 4 proyectos
+- Generar licencias y patentes en conjunto
+- 3 plantas
+- Empleo y patentes
+- Sueldos y regalías. Secretro industrial y la patente. 30
+- Biotecnología R+D, credibilidad. Mexico, Estados Unidos y Japón.
+- Grupo con estado de diferencias, desde los internacional a lo nacional.
+- Los niños deben educarse enfocado a su región y problemas. El mayor ejemplo: saquen productos y genera un cambio. Empresas pequeñas. Genera empleo.
+
+### Islena
+
+- Replantear: educación de una forma diferente
+- Trabajo, alinante. Excedente de ocio
+- Generar riqueza
+- Quieren comprar patentes, porque no los generamos aquí. Nicho biológicos y microbiológicos. Vender una solución
+- Aglomerados con plásticos, estibas con olores. Para hacer casas??
+
+## 18 de Marzo, 2025
+
+- México: más fuerte
+- [] Relleno sanitario autosuficiente, podríamos trabajar automatización AI
+- Secretor industriales
+- Eliminar olores y optimización en los tiempos de compotaje, 80% agua pura centrifuga
+- Policarbonatos,
+- Separación tinta a través de un tunel.
+
+### Problemas => Proyecto
+
+- Se hace el proyecto.
+
+### Llano
+
+- Microbiotica
+- Empresas grandes
+- Fortaleza armar la planta, bajar recursos. Economía circular
+- Secretos industriales y patentes
+- Recursos para la refinería, planta piloto
+
+### Residuos orgánicos
+
+- Patentes
+- Gallinaza, Porqueaza: interesadas en licenciar. Refinería
+
+### Otros paises, percepción de la economía
+
+- Fortaleza: credibilidad, ya los conocen
+- La refinería
+- Documentación (firmas)
+- Aguas cromáticas
+- Productos únicos
+- "Alianza"
+
+### La gaseosa
+
+- No tiene sellos
+- Miel y limón
+- Sin edulcorantes (3 sabores)
+
+### Barras de energía
+
+- Alimentación del futuro
+
+### Materías primas
+
+- Productos
+- Enzimas
+- Proteinas
+- Los supuermercados
+- Panes
+- Valores agregados
+
+### Desnutrición en Colombia
+
+- Barras
+- Agradable
+
+### Proyecto de caprinos
+
+### Asesorías y complementación
+
+### Bricks
+
+- Inoloras
+- Insonoras
+- Mas duros
+- Sismico
+
+### Productos
+
+- Regalías/pagos
+
+### Tecnologías en el parque Doña Juana
+
+## Puntos relevantes
+
+- Recursos
+- Clientes potenciales
+- Asesorías
+
+## Vino del putumayo
+
+## Vino sin fruta
+
+## Notas
+
+1er. Producto de Gloria y German (resumen el domigo)
+2do. Producto Yeimy, Islena y Robin (Financiera e inversión del proyecto)
+2da semana de abril
+Refinería hoy 18 nos lo comparte.
+
+## EU
+
+- Comunicación
+- 5horas bajamos
+- Planta se puede visitar
+- Proyección financiera
+
+## Proyectos
+
+1. Vino
+2. Alimentos
+3. Refinería
+
+## Arabia
+
+- Alimentos
+- Tecnologías limpias
+
+### Grupo/
+
+- Escudo
+- Nombre
+
+## Gunter Pauli
+
+- <https://es.wikipedia.org/wiki/Gunter_Pauli>

@@ -45,7 +45,7 @@
 
 ### Carpeta capacitaciones
 
-- <https://drive.google.com/drive/folders/1ZeazvpLaiKz0zh2cWbCnQcKxV3-5pKuU?usp=sharing>
+- <https://drive.google.com/drive/folders/1ZeazvpLaiKz0zh2cWbCnQcKxV3-5pKu?usp=sharing>
 
 ### Acuabox
 

@@ -53,3 +53,36 @@ user-1-vichada-2025
 - Esperar la reunión con Arturo Calle
 - Una solución global, cambio climatico. Acciones personales
 - 1. Visita Bilbao, casa de vivienda popular, trabajo mas digno
+
+## 03 de marzo, 2025
+
+- Para el reto: Moodle - Modo edición - Actividad - Tarea
+
+## 04 de Marzo 2025
+
+- <https://www.napkin.ai/>
+- <https://www.meshy.ai/>
+- <https://text-to-cad.zoo.dev/dashboard>
+- Dcoument AI
+- <https://stackedit.io/>
+- <https://ingeo.signin.aws.amazon.com/console>
+- user-1-vichada
+- <https://huggingface.co/>
+- <https://cloud.google.com/document-ai/docs/try-docai>
+- Recomendaciones: Amazon Personalize
+- <https://console.cloud.google.com/ai/document-ai?hl=en>
+- <https://yolov8.com/>
+- [] Curso de BigData, google Udemy
+- <https://www.glassdoor.com/index.htm>
+
+## 07 de Marzo 2025
+
+## 11 de Marzo 2025 Universidad del Pacífico
+
+- BlockChain
+
+- Lugar Santa Marta
+- 700000 COP
+- Ahorro 70.000 COP mensuales
+- en los 10 meses no se puede retirar
+- en el mes 10 se tranfiere a Agencia de viajes el valor de los tiquetes

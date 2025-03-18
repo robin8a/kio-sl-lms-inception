@@ -149,3 +149,10 @@ Comunidad
 # No cobrar servicios
 # Agrobot
 
+
+
+## ReactAdmin
+
+- <https://marmelab.com/react-admin/Tutorial.html>
+- <https://github.com/MrHertal/react-admin-amplify/tree/master>
+- <https://master.d3os44oci7szj2.amplifyapp.com/#/>
