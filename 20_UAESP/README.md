@@ -345,3 +345,10 @@ Refinería hoy 18 nos lo comparte.
 ## Gunter Pauli
 
 - <https://es.wikipedia.org/wiki/Gunter_Pauli>
+
+### Proyecto marco lógico
+
+- Documento para inversionistas
+- Preguntas vitales
+- Estado del arte
+
