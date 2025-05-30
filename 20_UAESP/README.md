@@ -276,7 +276,7 @@ Ayudame a crear un video con videos propios para explicar tres funcionalidades p
 - Productos
 - Enzimas
 - Proteinas
-- Los supuermercados
+- Los supermercados
 - Panes
 - Valores agregados
 
@@ -352,3 +352,101 @@ Refinería hoy 18 nos lo comparte.
 - Preguntas vitales
 - Estado del arte
 
+## 04 de abril, 2025
+
+[Gloria Isabel Niño Lopez](https://www.linkedin.com/in/gloria-isabel-ni%C3%B1o-lopez-0b0a5229/?originalSubdomain=co)
+
+- Marco teórico
+- Diseño de prospectivas
+- Estudios de tendencias
+- Crear unas rutinas (1 día a la semana)
+- La base es la formulación
+- Confianza va de la mano de la credibilidad
+- 3 interesados para presentar: mi hermana, Tufik Isa, Equipo de Nelson
+- "Estudiando juntos"
+- En alimentos
+- Manejo de residuos, transformación
+- No seguir nadando en la escacez
+- Como crear riqueza desde lo simple
+- Juego entre percibir y observar
+
+### Foco: creación de riqueza
+
+- informe monitor. Fuentes ocultas generadoras de riqueza
+- Plataforma educativa
+- Mostaza click
+- A todo dar
+- nano tech, los atomos no se pierden, la magía esta en los enlaces (envejecemos)
+- [Ukichiro Nakaya fue un físico y ensayista científico japonés conocido por su trabajo en glaciología y ciencias de baja temperatura](https://es.wikipedia.org/wiki/Masaru_Emoto). Conocido por sus afirmaciones de que las palabras, oraciones, sonidos y pensamientos dirigidos hacia un volumen de agua influirían sobre la forma de los cristales de hielo obtenidos del mismo.
+- Porter: desarrollo con los recursos no es viable. Era bit/bytes.
+- Universo de todas las posibilidades (nano, riqueza real)
+- La Bogotá que todos soñamos
+- Ideas 7 tarjetas
+
+### Generación de riqueza
+
+- Por actitud de la gente, avaricia
+- Queremos que nuestra familia esta bien, estando bien yo, los otros igualmente
+- Miedo a no tener, empece a tenerlo todo
+
+### Laser para eliminar grafitis
+
+### Gloria
+
+- Marco lógico
+- Lluvia de idea
+- Cuestionario
+- [] Ir formulando preguntas
+- Que máquinas son necesarias?
+- En dolares cuanto es valor de una planta?
+- Cuales son las regulaciones (rural/urbana)?
+- Simulaciones (Agente AI)
+- [] Lugar para ir colocándolas
+
+### SIG ()
+
+### Reunión del Lunes con Gloria
+
+- Convocatoria: <https://eatableadventures.com/raices/>
+- <https://www.instagram.com/chefdiegocespedes/?hl=es>
+- Papa de pobre, guatila intregrada, mango biche
+
+## 07 de abril, 2025
+
+### Planta piloto
+
+- 40% nosotros, 60% Gloria
+- Capitalizar, recuperar lo que se ha invertido
+- Tecnología
+
+### Alimentos, raíces (alimentación hambre cero)
+
+- Vamos con la cerdaza
+- Enfoque en fertilizantes.
+- España: alimentos, patente y know how.
+- Economía circular, proyecto complejo.
+- Vinos, funcionales.
+- 10 - 15 Slides, Pitch. Iniciamos. Caratula, frase inspiradora, proyectos, experiencias, datos de contacto y equipo.
+- Buscar el estado del arte.
+- Tecnología: problema graves EU
+- en 5 horas, 1 mes normalmente. Fertilizante
+- Fertilizante radicular
+- Foliar, superficial
+- Know how
+- Maquinaria necesarioa ya está
+- Valores
+- Regulaciones
+- <https://www.dw.com/es/explotaci%C3%B3n-porcina-y-contaminaci%C3%B3n/video-59283144>
+- Granjas de sangre: el costo oculto de la carne barata de cerdo | DW Documental: <https://www.youtube.com/watch?v=jOLqa1SQvL8>
+
+### Mapeado de proyectos
+
+- Principio activo
+- Productos terminado
+- Productos terminados
+- Bebidad que tengan ciertas propiedades, valores agregados
+- Materias primas
+- @francia, vitaminas
+- Interesadas productos
+- Productos so4lidos, canasta familiar, producto diferenciado
+- Economía circular, residuos fertilizantes, mucho mas economico, para animales y humanos.

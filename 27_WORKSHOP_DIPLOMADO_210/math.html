@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Interactivo: Multiplicación y División</title>
+    <style>
+        /* Estilos Generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding-top: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin: 20px;
+            max-width: 800px;
+            width: 100%;
+            box-sizing: border-box;
+            overflow: hidden; /* Clear floats */
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        /* Contenido de los Pasos */
+        .step-content {
+            min-height: 250px; /* Asegura un tamaño mínimo para evitar saltos bruscos */
+            padding: 10px 0;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+        }
+
+        .step-content.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .icon {
+            font-size: 2.5em;
+            vertical-align: middle;
+            margin-right: 15px;
+            color: #3498db;
+            display: inline-block;
+            line-height: 1; /* Align better with text */
+        }
+
+        /* Advertencias */
+        .warning {
+            background-color: #ffe0b2; /* Naranja claro */
+            color: #e65100; /* Naranja oscuro */
+            border-left: 5px solid #ff9800; /* Naranja medio */
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        /* Botones de Navegación */
+        .navigation-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .nav-button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-button:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .nav-button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+            box-shadow: none;
+            transform: none;
+        }
+
+        /* Responsive Design para Móviles */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            h2 {
+                font-size: 1.4em;
+            }
+
+            .icon {
+                font-size: 2em;
+                margin-right: 10px;
+            }
+
+            .nav-button {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
+
+            .navigation-buttons {
+                flex-direction: column; /* Apilar botones en móviles */
+                gap: 15px; /* Espacio entre botones */
+            }
+
+            .nav-button:first-child {
+                margin-bottom: 10px; /* Espacio adicional para el botón superior */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Curso Interactivo: Aprende Multiplicación y División</h1>
+        <div id="tutorial-content" class="step-content">
+            </div>
+        <div class="navigation-buttons">
+            <button id="prevBtn" class="nav-button" disabled>&#x2B05; Anterior</button>
+            <button id="nextBtn" class="nav-button">Siguiente &#x27A1;</button>
+        </div>
+    </div>
+
+    <script>
+        // Array que contiene todos los pasos del tutorial. Cada objeto tiene un título, un icono y el contenido HTML.
+        const tutorialSteps = [
+            {
+                title: "¡Bienvenido a tu Curso de Matemáticas!",
+                icon: "&#x1F31F;", // ⭐ Icono de estrella
+                content: `
+                    <p>¡Hola! Este curso interactivo está diseñado para ti, sin importar si no tienes ningún conocimiento previo de matemáticas. Aprenderemos juntos los secretos de la multiplicación y la división de números enteros de una manera sencilla y divertida.</p>
+                    <p>No te preocupes si algo parece difícil al principio, iremos paso a paso. ¡Estás a punto de descubrir lo fácil que pueden ser las matemáticas!</p>
+                    <p> Mi nuevo texto </p>
+                `
+            },
+            {
+                title: "1. ¿Qué es Multiplicar? ¡Sumar Rápido!",
+                icon: "&#x1F4A1;", // 💡 Icono de bombilla
+                content: `
+                    <p><span class="icon">&#x1F4A1;</span> La multiplicación es una forma rápida de hacer una suma repetida. Imagina que tienes varias veces el mismo número de cosas y quieres saber el total.</p>
+                    <p>Por ejemplo, si tienes <strong>3 grupos de 2 manzanas</strong>, puedes sumarlas: 2 + 2 + 2 = 6 manzanas.</p>
+                    <p>Con la multiplicación, decimos: <strong>3 veces 2</strong>, y lo escribimos como <strong>3 x 2 = 6</strong>.</p>
+                    <p>El signo "x" se lee como "veces" o "por".</p>
+                `
+            },
+            {
+                title: "1.1. Multiplicación con Ejemplos Visuales",
+                icon: "&#x1F34E;", // 🍎 Icono de manzana
+                content: `
+                    <p><span class="icon">&#x1F34E;</span> Vamos a ver más ejemplos:</p>
+                    <ul>
+                        <li><strong>2 x 4:</strong> Significa 2 grupos de 4 objetos. Si tienes 4 lápices y luego otros 4 lápices, en total tienes 4 + 4 = 8 lápices. ¡Así, 2 x 4 = 8!</li>
+                        <li><strong>5 x 3:</strong> Significa 5 grupos de 3 objetos. 3 + 3 + 3 + 3 + 3 = 15. ¡Así, 5 x 3 = 15!</li>
+                    </ul>
+                    <p>Piensa en la multiplicación como contar por saltos. Si multiplicas por 5, estás dando saltos de 5 en 5 (5, 10, 15, 20...).</p>
+                `
+            },
+            {
+                title: "1.2. La Tabla de Multiplicar (Concepto Básico)",
+                icon: "&#x1F4DA;", // 📚 Icono de libros
+                content: `
+                    <p><span class="icon">&#x1F4DA;</span> La "Tabla de Multiplicar" es una herramienta que nos ayuda a recordar los resultados de las multiplicaciones más comunes.</p>
+                    <p>Por ejemplo, en la tabla del 2:</p>
+                    <ul>
+                        <li>2 x 1 = 2</li>
+                        <li>2 x 2 = 4</li>
+                        <li>2 x 3 = 6</li>
+                        <li>2 x 4 = 8</li>
+                        <li>...y así sucesivamente.</li>
+                    </ul>
+                    <p class="warning"><span class="icon">&#x26A0;&#xFE0F;</span> No necesitas memorizarla toda de golpe. Con la práctica y entendiendo el concepto de "suma repetida", los resultados se irán quedando contigo naturalmente.</p>
+                `
+            },
+            {
+                title: "2. ¿Qué es Dividir? ¡Repartir en Partes Iguales!",
+                icon: "&#x1F9E9;", // ➗ Icono de división
+                content: `
+                    <p><span class="icon">&#x1F9E9;</span> La división es lo opuesto a la multiplicación. Sirve para <strong>repartir una cantidad total en partes iguales</strong> o para saber cuántas veces cabe un número en otro.</p>
+                    <p>El signo de división es "÷" o también se usa la barra "/" (como en las calculadoras).</p>
+                    <p>Por ejemplo, si tienes <strong>6 galletas y quieres repartirlas entre 3 amigos</strong>, ¿cuántas galletas le tocan a cada uno?</p>
+                `
+            },
+            {
+                title: "2.1. División con Ejemplos Visuales",
+                icon: "&#x1F36A;", // 🍪 Icono de galleta
+                content: `
+                    <p><span class="icon">&#x1F36A;</span> Sigamos con el ejemplo de las galletas:</p>
+                    <ul>
+                        <li>Tienes 6 galletas.</li>
+                        <li>Quieres repartirlas entre 3 amigos.</li>
+                        <li>Le das una a cada uno: Amigo 1 (1), Amigo 2 (1), Amigo 3 (1). Te quedan 3 galletas.</li>
+                        <li>Le das otra a cada uno: Amigo 1 (2), Amigo 2 (2), Amigo 3 (2). Te quedan 0 galletas.</li>
+                    </ul>
+                    <p>Cada amigo recibió 2 galletas. Así, <strong>6 ÷ 3 = 2</strong>.</p>
+                    <p>Otro ejemplo: ¿Cuántos grupos de 3 puedes hacer con 9 manzanas? (9 ÷ 3 = 3 grupos).</p>
+                `
+            },
+            {
+                title: "2.2. División y su Relación con la Multiplicación",
+                icon: "&#x1F504;", // 🔄 Icono de recargar
+                content: `
+                    <p><span class="icon">&#x1F504;</span> La división y la multiplicación están muy conectadas. Son operaciones inversas.</p>
+                    <p>Si sabes que <strong>3 x 2 = 6</strong>, entonces también sabes que:</p>
+                    <ul>
+                        <li><strong>6 ÷ 3 = 2</strong> (Si repartes 6 en 3 partes, cada parte es 2)</li>
+                        <li><strong>6 ÷ 2 = 3</strong> (Si repartes 6 en 2 partes, cada parte es 3)</li>
+                    </ul>
+                    <p>Entender esta relación te ayudará mucho a comprender la división.</p>
+                `
+            },
+            {
+                title: "3. ¡Felicidades! Es Hora de Practicar",
+                icon: "&#x1F680;", // 🚀 Icono de cohete
+                content: `
+                    <p><span class="icon">&#x1F680;</span> ¡Has llegado al final de este curso introductorio! Ahora tienes una base sólida para entender la multiplicación y la división.</p>
+                    <p>La clave para dominar estas operaciones es la <strong>práctica constante</strong>.</p>
+                    <ul>
+                        <li>Intenta resolver problemas sencillos en tu día a día.</li>
+                        <li>Usa objetos para visualizar los grupos y repartos.</li>
+                        <li>No tengas miedo de equivocarte, ¡así es como aprendemos!</li>
+                    </ul>
+                    <p class="warning"><span class="icon">&#x26A0;&#xFE0F;</span> Recuerda: la paciencia y la práctica son tus mejores aliados en matemáticas. ¡Sigue adelante y diviértete aprendiendo!</p>
+                `
+            }
+        ];
+
+        let currentStepIndex = 0; // Índice del paso actual en el tutorial
+        const tutorialContentDiv = document.getElementById('tutorial-content'); // Contenedor del contenido del paso
+        const prevBtn = document.getElementById('prevBtn'); // Botón "Anterior"
+        const nextBtn = document.getElementById('nextBtn'); // Botón "Siguiente"
+
+        /**
+         * Renderiza el contenido del paso especificado por el índice.
+         * @param {number} index - El índice del paso a renderizar.
+         */
+        function renderStep(index) {
+            const step = tutorialSteps[index];
+            if (!step) return; // Sale si el índice está fuera de rango
+
+            // Remueve la clase 'active' para iniciar la transición de salida
+            tutorialContentDiv.classList.remove('active');
+            // Pequeño retraso para permitir que la transición de salida se complete
+            setTimeout(() => {
+                // Actualiza el contenido HTML del div con el título y el contenido del paso actual
+                tutorialContentDiv.innerHTML = `
+                    <h2>${step.title}</h2>
+                    <p>${step.content}</p>
+                `;
+                // Añade la clase 'active' para iniciar la transición de entrada
+                tutorialContentDiv.classList.add('active');
+                // Actualiza el estado de los botones de navegación (habilitado/deshabilitado)
+                updateNavigationButtons();
+            }, 100); // Duración del retraso en milisegundos
+        }
+
+        /**
+         * Actualiza el estado de los botones "Anterior" y "Siguiente"
+         * basándose en el índice del paso actual.
+         */
+        function updateNavigationButtons() {
+            // Deshabilita el botón "Anterior" si estamos en el primer paso
+            prevBtn.disabled = currentStepIndex === 0;
+            // Deshabilita el botón "Siguiente" si estamos en el último paso
+            nextBtn.disabled = currentStepIndex === tutorialSteps.length - 1;
+        }
+
+        // Añade un event listener al botón "Anterior"
+        prevBtn.addEventListener('click', () => {
+            // Si no estamos en el primer paso, decrementa el índice y renderiza el paso anterior
+            if (currentStepIndex > 0) {
+                currentStepIndex--;
+                renderStep(currentStepIndex);
+            }
+        });
+
+        // Añade un event listener al botón "Siguiente"
+        nextBtn.addEventListener('click', () => {
+            // Si no estamos en el último paso, incrementa el índice y renderiza el paso siguiente
+            if (currentStepIndex < tutorialSteps.length - 1) {
+                currentStepIndex++;
+                renderStep(currentStepIndex);
+            }
+        });
+
+        // Cuando el DOM esté completamente cargado, renderiza el primer paso del tutorial
+        document.addEventListener('DOMContentLoaded', () => {
+            renderStep(currentStepIndex);
+        });
+    </script>
+</body>
+</html>
