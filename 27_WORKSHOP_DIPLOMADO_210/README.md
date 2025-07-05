@@ -69,7 +69,6 @@
 - Roboflow
 - YOLO
 
-
 ### Bagel
 
 - [Bagel](https://bagel-ai.org/)
@@ -123,6 +122,8 @@
 - <https://www.anthropic.com/news/claude-4>
 - regular
 - complex task
+- Claude Opus 4 is the most powerfull
+- Good for software engineering, codign tasks
 
 #### Google Video check
 
@@ -145,11 +146,11 @@
 - oximetro $6M de pesos, de los buenos. Recambio le meto agua.
 - Asistente 24/7, panel, problematicas y soluciones
 - Hongos, aplique tanto de sal
-- Se habla en M2 , 
+- Se habla en M2
 - Temp, me da el consumo de alimento. A mayor temperatura se demoran en Tolima 8 meses. En otros lado 6 meses.
-- Por Estanques, otra tabla, 
+- Por Estanques, otra tabla
 - Solo para engorde
-- Preguntas al grupo por 
+- Preguntas al grupo por
 - relacionado por especie (cachama, tilapia): los parámetro son diferentes para cada producción)
 - tienda virtual, marcas, subdistribuidores
 - Solución del problema del piscicultor
@@ -160,4 +161,43 @@
 
 - Hay una aplicación ganadera
 
+## 30 de Mayo, 2025
 
+### Chatbot arena
+
+- <https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leaderboard>
+- <https://openlm.ai/chatbot-arena/>
+- <https://lmarena.ai/leaderboard>
+
+### Presentations Gamma
+
+- <https://gamma.app/es>
+
+### Microsoft NLWeb (Chatbot to your site)
+
+- Easy set up to website
+- MCP (Model context protocol) connect other resources
+
+### Microsoft Copilot
+
+- same OpenAI Codex work
+- same Google Jules
+
+### Gemini Google Studio 05-06
+
+> Solve complex problems (Ex. coding, math, science)
+
+- Token count: 1'048.576 (1 hour of video)
+- Temperature: 2 more creative, 0 less
+- Structure: json, table, html etc
+- Code execution: allow run code
+- Function calling: external APIs
+- Grounding with google fetch: fetch later information from Google search engine
+- Multimodal
+
+video: quiero crear un visualización interactiva de terremotos en Japón, tenemos un mapa de Japon quiero listes o muestres la ciudades mas grandes en el mapa, tambien quiero al lado izquiedo slides bars donde puedo ajustar la magnitud, la velocidad de propagacion etc. Si hago click en el mapa, por ejemplo hago clic aqui debes iniciar a crear una animación de la ondas expadiendose desde el centro hasta que impacta una o varias ciudades y basado en la magnitud calcular que tan severo fue el impacto
+
+prompt: put everything in a single stand alone html file
+
+- <https://www.autodraw.com/>
+- Video publicado: <https://youtu.be/Uwo3PzUdFDg>
