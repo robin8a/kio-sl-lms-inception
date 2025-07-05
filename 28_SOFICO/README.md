@@ -336,5 +336,3 @@
         *   **Cost Optimization:** Entrega de valor comercial al menor precio, modelo de pago por uso, eficiencia, reducción de costos de centros de datos, servicios gestionados.
 
 ---
-
-Espero que estas diapositivas te sean de gran ayuda. Si necesitas alguna modificación o detalle adicional, no dudes en preguntar.
